@@ -1,6 +1,8 @@
 C97521 //16MB Flash Chip
 C2845237 //TPS63802DLAR buck boost converter
-C3031673 // RT8097CHGE buck converter for 1v rail
-C5138141 //TMI3408F buck converter for 1.5v rail
-C27416 //RT9193-18GB LDO linear regulator for 1.8v rail
+C3031673 // RT8097CHGE buck converter for 1v and 1.5v rail
 C374063 //BQ25606RGER NVDC Power Path management and battery charger
+C5299908 //CH32V003F4U6 for power button and battery monitoring
+C46635136 //YLED0602WSIDE Right angle white indicator LED
+C393942 //TS24CA Right angle tact switch
+C49446796 //YLED0602RSIDE Right angle red indicator LED
