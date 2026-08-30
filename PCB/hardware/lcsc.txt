@@ -6,3 +6,5 @@ C5299908 //CH32V003F4U6 for power button and battery monitoring
 C46635136 //YLED0602WSIDE Right angle white indicator LED
 C393942 //TS24CA Right angle tact switch
 C49446796 //YLED0602RSIDE Right angle red indicator LED
+C9900021743 //OK-10F030-04 30 Pin mezzanine connector
+C2856804 //FPC-05F-22PH20
