@@ -8,3 +8,9 @@ C393942 //TS24CA Right angle tact switch
 C49446796 //YLED0602RSIDE Right angle red indicator LED
 C9900021743 //OK-10F030-04 30 Pin mezzanine connector
 C2856804 //FPC-05F-22PH20
+C5656610 //ICS-43434 I2S MEMS microphone
+C5438445 //INMP441 I2S MEMS microphone (unpopulated, but footprint available just in case)
+C27416 //RT9193-18GB
+C2836813 //BMI270
+C720505 //TF-115-BCP9 SD Card connector
+C7303340 //8pF crystal resonator

@@ -1,4 +1,4 @@
-26246175362293244
+26276571088608793
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104251,12 +104251,96 @@ Varistor VF
 2
 2
 easyeda2kicad
+Battery
+
+
+0
+6
+6
+easyeda2kicad
+CONN-SMD_30P-P0.40_OK-10F030-04-A
+
+
+0
+34
+34
+easyeda2kicad
+CRYSTAL-SMD_4P-L2.0-W1.6-BL
+
+
+0
+4
+4
+easyeda2kicad
+FPC-SMD_22P-P0.50_FPC-05F-22PH20
+
+
+0
+24
+24
+easyeda2kicad
+FPC-SMD_24P-P0.50_FPC-05F-24PH20
+
+
+0
+26
+26
+easyeda2kicad
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+6
+4
+easyeda2kicad
+LED-SMD_L1.6-W1.1-R-RD_WHITE
+
+
+0
+2
+2
+easyeda2kicad
+LED-SMD_L1.6-W1.1-RD
+
+
+0
+2
+2
+easyeda2kicad
+LGA-14_L3.0-W2.5-P0.50-BR
+
+
+0
+14
+14
+easyeda2kicad
 L_Changjiang_FTC201610S
 Inductor, Changjiang, FTC201610S, 2.0x1.6x1.0mm, (http://www.cjiang.com.cn/Pr_download_id_1117.html), generated with kicad-footprint-generator gen_inductor.py
 cjiang ftc molded power shielded
 0
 2
 2
+easyeda2kicad
+MIC-SMD_6P-L3.5-W2.7-P0.90-BL
+
+
+0
+10
+6
+easyeda2kicad
+MIC-SMD_INMP441
+
+
+0
+11
+9
+easyeda2kicad
+QFN-20_L3.0-W3.0-P0.40-TL-EP1.7
+
+
+0
+21
+21
 easyeda2kicad
 QFN128_12.3_12.3
 
@@ -104292,6 +104376,41 @@ SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 0
 6
 6
+easyeda2kicad
+SW-SMD_2P-TS24CA
+
+
+0
+6
+4
+easyeda2kicad
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+easyeda2kicad
+TF-SMD_TF-115-BCP9
+
+
+0
+15
+13
+easyeda2kicad
+TestPoint
+JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+1
+1
+easyeda2kicad
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+
+
+0
+18
+14
 easyeda2kicad
 VQFN-24_L4.0-W4.0-P0.50-TL-EP2.8
 
