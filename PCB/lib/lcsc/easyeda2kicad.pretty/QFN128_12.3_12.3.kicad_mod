@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" ""
+	(property "Reference" "Ref**"
 		(at -0.1375 -7.225 0)
 		(layer "F.SilkS")
 		(uuid "a845e818-59f6-4f4c-827e-0b3254853239")
@@ -162,1035 +162,906 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "1" smd oval
 		(at -5.95 -5.425 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "1c5d9e21-489a-4a09-a654-bc29ab209982")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" smd oval
 		(at -5.95 -5.075 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f75b4e32-1590-4536-9157-91334cb1027f")
 	)
-	(pad "3" thru_hole oval
+	(pad "3" smd oval
 		(at -5.95 -4.725 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "6674df52-fed3-4c81-adfb-54f3e5796774")
 	)
-	(pad "4" thru_hole oval
+	(pad "4" smd oval
 		(at -5.95 -4.375 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "9d62eed3-c3da-4a74-b758-be36bd944e73")
 	)
-	(pad "5" thru_hole oval
+	(pad "5" smd oval
 		(at -5.95 -4.025 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "cfe59d8f-0dad-4a68-8283-0a45b53bd8c8")
 	)
-	(pad "6" thru_hole oval
+	(pad "6" smd oval
 		(at -5.95 -3.675 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c7e31433-e2ba-4e6b-a5a1-dfc18d6c83d6")
 	)
-	(pad "7" thru_hole oval
+	(pad "7" smd oval
 		(at -5.95 -3.325 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "5b772b57-9f4e-4eda-9166-67a9c452a3f0")
 	)
-	(pad "8" thru_hole oval
+	(pad "8" smd oval
 		(at -5.95 -2.975 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "5ae26936-4be4-4c08-9700-e74b5904f900")
 	)
-	(pad "9" thru_hole oval
+	(pad "9" smd oval
 		(at -5.95 -2.625 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b901fcca-36ab-4166-b683-458559bc15ff")
 	)
-	(pad "10" thru_hole oval
+	(pad "10" smd oval
 		(at -5.95 -2.275 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3e560e8a-2c9b-43d4-a69a-b70c0fb7195c")
 	)
-	(pad "11" thru_hole oval
+	(pad "11" smd oval
 		(at -5.95 -1.925 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "7bdf383c-e2d9-4652-a015-2ee92a2787e5")
 	)
-	(pad "12" thru_hole oval
+	(pad "12" smd oval
 		(at -5.95 -1.575 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3f730202-9be0-45a3-9453-2de72c67aaf6")
 	)
-	(pad "13" thru_hole oval
+	(pad "13" smd oval
 		(at -5.95 -1.225 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4432aacd-b3de-4daf-9a46-2b46fd9d4108")
 	)
-	(pad "14" thru_hole oval
+	(pad "14" smd oval
 		(at -5.95 -0.875 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "6110659e-63c8-48f1-8782-1d16c1cb80c0")
 	)
-	(pad "15" thru_hole oval
+	(pad "15" smd oval
 		(at -5.95 -0.525 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4c4f3c32-8540-4218-b0cf-e1a0fb2f3388")
 	)
-	(pad "16" thru_hole oval
+	(pad "16" smd oval
 		(at -5.95 -0.175 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b130b8a0-91d0-42b1-b6c3-103d9f2f82ad")
 	)
-	(pad "17" thru_hole oval
+	(pad "17" smd oval
 		(at -5.95 0.175 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8c825d92-8e4e-43fe-8681-fdc0780747c7")
 	)
-	(pad "18" thru_hole oval
+	(pad "18" smd oval
 		(at -5.95 0.525 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "995a99c0-5b8d-4ec8-8739-caf6dfcee8f7")
 	)
-	(pad "19" thru_hole oval
+	(pad "19" smd oval
 		(at -5.95 0.875 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "40b2e44b-5723-43fa-ada9-23dc7066a103")
 	)
-	(pad "20" thru_hole oval
+	(pad "20" smd oval
 		(at -5.95 1.225 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "e9dec399-cb48-42c0-aba2-063d93a6e31e")
 	)
-	(pad "21" thru_hole oval
+	(pad "21" smd oval
 		(at -5.95 1.575 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8cec4d7e-439e-4df2-b5a3-189f3be72ba4")
 	)
-	(pad "22" thru_hole oval
+	(pad "22" smd oval
 		(at -5.95 1.925 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "12dcb26b-27bc-446f-8d1b-1840d7d1aa72")
 	)
-	(pad "23" thru_hole oval
+	(pad "23" smd oval
 		(at -5.95 2.275 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "36b0ef7a-644d-4e77-9225-70af4c5e4d76")
 	)
-	(pad "24" thru_hole oval
+	(pad "24" smd oval
 		(at -5.95 2.625 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b6812e6a-8e86-4e79-a8b8-1e27ef4f2e87")
 	)
-	(pad "25" thru_hole oval
+	(pad "25" smd oval
 		(at -5.95 2.975 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f412b1fc-9278-46be-b5a3-163f1a7801fc")
 	)
-	(pad "26" thru_hole oval
+	(pad "26" smd oval
 		(at -5.95 3.325 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "a26cbe9a-7933-451e-b1c9-59ec89ddd70c")
 	)
-	(pad "27" thru_hole oval
+	(pad "27" smd oval
 		(at -5.95 3.675 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "01e8a580-699f-4899-b675-a0fc644232a5")
 	)
-	(pad "28" thru_hole oval
+	(pad "28" smd oval
 		(at -5.95 4.025 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "63df09a2-8a09-4187-903f-195c41decd08")
 	)
-	(pad "29" thru_hole oval
+	(pad "29" smd oval
 		(at -5.95 4.375 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "897f8ca7-0090-49dc-b1a6-3eadd9f5411e")
 	)
-	(pad "30" thru_hole oval
+	(pad "30" smd oval
 		(at -5.95 4.725 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "fba76b32-3016-4520-9378-1e18dd3bf7d0")
 	)
-	(pad "31" thru_hole oval
+	(pad "31" smd oval
 		(at -5.95 5.075 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "498d7cc2-394c-4873-bc8b-b2dda4025ab4")
 	)
-	(pad "32" thru_hole oval
+	(pad "32" smd oval
 		(at -5.95 5.425 270)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "5052109a-2de0-4c50-b7c8-85720fd0edc8")
 	)
-	(pad "33" thru_hole oval
+	(pad "33" smd oval
 		(at -5.425 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "0bb05a9e-7cf0-4059-98dc-7e3fd6905835")
 	)
-	(pad "34" thru_hole oval
+	(pad "34" smd oval
 		(at -5.075 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "25ed3939-893b-40fa-bf70-f7a55c46adc5")
 	)
-	(pad "35" thru_hole oval
+	(pad "35" smd oval
 		(at -4.725 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "78cc70be-d0fa-4a30-b52f-a802f5d7a631")
 	)
-	(pad "36" thru_hole oval
+	(pad "36" smd oval
 		(at -4.375 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "bdf9869b-a3a0-4344-b3ee-459337e0dc89")
 	)
-	(pad "37" thru_hole oval
+	(pad "37" smd oval
 		(at -4.025 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "a8af8a27-66fc-464b-8ed8-bda59ab4ff88")
 	)
-	(pad "38" thru_hole oval
+	(pad "38" smd oval
 		(at -3.675 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3f1a3d0b-bf8f-4877-9ffe-1ff1090739ff")
 	)
-	(pad "39" thru_hole oval
+	(pad "39" smd oval
 		(at -3.325 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "1f413950-d7a8-4c41-914e-68b6e78e40bf")
 	)
-	(pad "40" thru_hole oval
+	(pad "40" smd oval
 		(at -2.975 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3c41492c-f0b8-47d4-a34a-6a901285e05b")
 	)
-	(pad "41" thru_hole oval
+	(pad "41" smd oval
 		(at -2.625 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "6eeb106e-9b9d-4e71-b470-64375cc45460")
 	)
-	(pad "42" thru_hole oval
+	(pad "42" smd oval
 		(at -2.275 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3adadd37-961d-43db-9e90-85d6e8ff411a")
 	)
-	(pad "43" thru_hole oval
+	(pad "43" smd oval
 		(at -1.925 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "fe747a34-5beb-4d8e-934b-78625e59b0e3")
 	)
-	(pad "44" thru_hole oval
+	(pad "44" smd oval
 		(at -1.575 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "780c98b9-b1ec-4c47-84c8-a18fdd98aaa5")
 	)
-	(pad "45" thru_hole oval
+	(pad "45" smd oval
 		(at -1.225 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "38cdb03a-504c-4aa8-8097-1b6e515c27c7")
 	)
-	(pad "46" thru_hole oval
+	(pad "46" smd oval
 		(at -0.875 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "99aa2c1f-e3d0-4727-9664-d29bc4079987")
 	)
-	(pad "47" thru_hole oval
+	(pad "47" smd oval
 		(at -0.525 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "fc69fa78-c4ff-4736-bb71-bd781d97386c")
 	)
-	(pad "48" thru_hole oval
+	(pad "48" smd oval
 		(at -0.175 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "7c6c1249-9947-4d7d-850c-1d193d16c0ed")
 	)
-	(pad "49" thru_hole oval
+	(pad "49" smd oval
 		(at 0.175 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "2c455b25-b400-4734-b5f2-964981ab040b")
 	)
-	(pad "50" thru_hole oval
+	(pad "50" smd oval
 		(at 0.525 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "d586aaf9-b4dd-49ba-8303-9a044b477372")
 	)
-	(pad "51" thru_hole oval
+	(pad "51" smd oval
 		(at 0.875 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "6fc41404-0d0b-4f55-a101-7e78e31a6b55")
 	)
-	(pad "52" thru_hole oval
+	(pad "52" smd oval
 		(at 1.225 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "2c7a05de-92b4-4b70-ba7d-3cbf5f9bd139")
 	)
-	(pad "53" thru_hole oval
+	(pad "53" smd oval
 		(at 1.575 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "e26eab77-e28d-4aaa-9979-a0f60023beba")
 	)
-	(pad "54" thru_hole oval
+	(pad "54" smd oval
 		(at 1.925 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "6a3afdc2-591f-4cfa-8c35-413f703918a9")
 	)
-	(pad "55" thru_hole oval
+	(pad "55" smd oval
 		(at 2.275 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8f1bfbd6-ef8d-43ab-b912-b411f9b14ca2")
 	)
-	(pad "56" thru_hole oval
+	(pad "56" smd oval
 		(at 2.625 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "2d9f56d3-04ff-4de1-b2ea-dba0f0d46d20")
 	)
-	(pad "57" thru_hole oval
+	(pad "57" smd oval
 		(at 2.975 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "87442c08-0b06-4050-bde4-173ea7626623")
 	)
-	(pad "58" thru_hole oval
+	(pad "58" smd oval
 		(at 3.325 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "9a104c84-e1f4-4285-8e7e-7244ddeaacab")
 	)
-	(pad "59" thru_hole oval
+	(pad "59" smd oval
 		(at 3.675 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "5cee98d6-a017-4b10-80e4-e13b25214ad5")
 	)
-	(pad "60" thru_hole oval
+	(pad "60" smd oval
 		(at 4.025 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f813f70b-0d12-4fb9-ac12-adba016ba6b0")
 	)
-	(pad "61" thru_hole oval
+	(pad "61" smd oval
 		(at 4.375 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "670a2e41-fbc3-46a3-a6ff-e962d1081f01")
 	)
-	(pad "62" thru_hole oval
+	(pad "62" smd oval
 		(at 4.725 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "75c55617-32c4-4c42-a64c-ae1f2acd2efd")
 	)
-	(pad "63" thru_hole oval
+	(pad "63" smd oval
 		(at 5.075 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8b8fa48c-5ddc-41d2-82d4-7791292732bb")
 	)
-	(pad "64" thru_hole oval
+	(pad "64" smd oval
 		(at 5.425 5.95)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ce6361d5-ab46-4f22-91e5-e416c791145b")
 	)
-	(pad "65" thru_hole oval
+	(pad "65" smd oval
 		(at 5.95 5.425 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "1945137a-bbe5-4299-acd0-a650479dbf18")
 	)
-	(pad "66" thru_hole oval
+	(pad "66" smd oval
 		(at 5.95 5.075 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "0063f95b-a9d4-4414-8ef5-34fb44c10b2e")
 	)
-	(pad "67" thru_hole oval
+	(pad "67" smd oval
 		(at 5.95 4.725 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "09ced5bc-1cf2-4f52-ae24-1026f0fd8097")
 	)
-	(pad "68" thru_hole oval
+	(pad "68" smd oval
 		(at 5.95 4.375 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "19a9171a-b4cf-4fd9-8b3e-cee9769790cb")
 	)
-	(pad "69" thru_hole oval
+	(pad "69" smd oval
 		(at 5.95 4.025 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "a2d8a116-5ae0-48b6-afb2-d89eaec93b30")
 	)
-	(pad "70" thru_hole oval
+	(pad "70" smd oval
 		(at 5.95 3.675 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4bb378b1-6fba-4537-af3e-3e2f34148da8")
 	)
-	(pad "71" thru_hole oval
+	(pad "71" smd oval
 		(at 5.95 3.325 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "497728b8-cb84-4065-bbaa-18da45f0ac6b")
 	)
-	(pad "72" thru_hole oval
+	(pad "72" smd oval
 		(at 5.95 2.975 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c8b78473-bf31-45b5-9456-17ddc484d107")
 	)
-	(pad "73" thru_hole oval
+	(pad "73" smd oval
 		(at 5.95 2.625 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ae62c608-eb5b-4a9d-9f3f-e39eb67dcf38")
 	)
-	(pad "74" thru_hole oval
+	(pad "74" smd oval
 		(at 5.95 2.275 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "fa53e7f8-1ee6-4a0d-a522-34ce8f3ab100")
 	)
-	(pad "75" thru_hole oval
+	(pad "75" smd oval
 		(at 5.95 1.925 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "02014410-af9f-436d-a935-d4404573d4ba")
 	)
-	(pad "76" thru_hole oval
+	(pad "76" smd oval
 		(at 5.95 1.575 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3f7ed354-6802-4b16-8207-cfc64db9c2e8")
 	)
-	(pad "77" thru_hole oval
+	(pad "77" smd oval
 		(at 5.95 1.225 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "55308d2a-6870-44be-a400-b91d2bcbb831")
 	)
-	(pad "78" thru_hole oval
+	(pad "78" smd oval
 		(at 5.95 0.875 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "60e18d23-8838-4ba6-a090-a40e46612198")
 	)
-	(pad "79" thru_hole oval
+	(pad "79" smd oval
 		(at 5.95 0.525 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "1ecacedb-913f-4537-b322-c949c46a90ef")
 	)
-	(pad "80" thru_hole oval
+	(pad "80" smd oval
 		(at 5.95 0.175 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "a3029c21-7050-4455-86a2-5131b74edaf5")
 	)
-	(pad "81" thru_hole oval
+	(pad "81" smd oval
 		(at 5.95 -0.175 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ecce6f7c-8779-44e2-826f-e112a080244d")
 	)
-	(pad "82" thru_hole oval
+	(pad "82" smd oval
 		(at 5.95 -0.525 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "61862b12-2e8b-4ef5-b9a9-0c521e1b3da0")
 	)
-	(pad "83" thru_hole oval
+	(pad "83" smd oval
 		(at 5.95 -0.875 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "cce54d82-8b42-4d1a-8669-55c9b8b47749")
 	)
-	(pad "84" thru_hole oval
+	(pad "84" smd oval
 		(at 5.95 -1.225 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "433d5a25-7c40-456e-94cc-2ca11a0aebb6")
 	)
-	(pad "85" thru_hole oval
+	(pad "85" smd oval
 		(at 5.95 -1.575 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c5345cfc-ae5d-4a22-b982-4f263544fcd2")
 	)
-	(pad "86" thru_hole oval
+	(pad "86" smd oval
 		(at 5.95 -1.925 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "3a789b6e-6307-4b49-8faa-2168737270d7")
 	)
-	(pad "87" thru_hole oval
+	(pad "87" smd oval
 		(at 5.95 -2.275 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ad320d22-1a29-4fea-8a07-082055962185")
 	)
-	(pad "88" thru_hole oval
+	(pad "88" smd oval
 		(at 5.95 -2.625 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "805861a0-edd5-4304-aed4-2c8f68cf7f9b")
 	)
-	(pad "89" thru_hole oval
+	(pad "89" smd oval
 		(at 5.95 -2.975 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4c4e2afb-a2a6-455f-81ca-e7b783841b42")
 	)
-	(pad "90" thru_hole oval
+	(pad "90" smd oval
 		(at 5.95 -3.325 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f5f560c3-c53a-4974-8b80-de3ebda8c4ee")
 	)
-	(pad "91" thru_hole oval
+	(pad "91" smd oval
 		(at 5.95 -3.675 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8b3d17b8-5707-47bf-8115-8be4ae0943f6")
 	)
-	(pad "92" thru_hole oval
+	(pad "92" smd oval
 		(at 5.95 -4.025 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b745ce7d-8752-4a48-8c9b-669f5cac0bcb")
 	)
-	(pad "93" thru_hole oval
+	(pad "93" smd oval
 		(at 5.95 -4.375 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "411de8ad-23d6-4e8d-a551-17fa1674739d")
 	)
-	(pad "94" thru_hole oval
+	(pad "94" smd oval
 		(at 5.95 -4.725 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "7e9d591d-6a6e-4c9e-9e8d-f754097cc67b")
 	)
-	(pad "95" thru_hole oval
+	(pad "95" smd oval
 		(at 5.95 -5.075 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ef492b84-495c-4447-ba63-69c80e03e902")
 	)
-	(pad "96" thru_hole oval
+	(pad "96" smd oval
 		(at 5.95 -5.425 90)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "0318f7c8-f3a1-4db4-a293-c76b1c65f183")
 	)
-	(pad "97" thru_hole oval
+	(pad "97" smd oval
 		(at 5.425 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c514168d-2c0b-43ac-b65c-8edfe3f70791")
 	)
-	(pad "98" thru_hole oval
+	(pad "98" smd oval
 		(at 5.075 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "51476691-086e-44ec-a37b-f414b6158ec8")
 	)
-	(pad "99" thru_hole oval
+	(pad "99" smd oval
 		(at 4.725 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "363dc9e9-7d27-4b9f-80e5-7809a55cbc86")
 	)
-	(pad "100" thru_hole oval
+	(pad "100" smd oval
 		(at 4.375 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "84729756-ab86-42ae-a427-d6efb70bd800")
 	)
-	(pad "101" thru_hole oval
+	(pad "101" smd oval
 		(at 4.025 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f307fb43-a357-41a1-8b36-0d0768b35e84")
 	)
-	(pad "102" thru_hole oval
+	(pad "102" smd oval
 		(at 3.675 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "9f08a5be-d2a3-4c2f-910e-2c6e1b76bf20")
 	)
-	(pad "103" thru_hole oval
+	(pad "103" smd oval
 		(at 3.325 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "efe915f4-a20e-46d3-8e73-86d44001d796")
 	)
-	(pad "104" thru_hole oval
+	(pad "104" smd oval
 		(at 2.975 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4dfa86b1-285c-4866-9d28-72de1349a1b5")
 	)
-	(pad "105" thru_hole oval
+	(pad "105" smd oval
 		(at 2.625 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "41db314a-0bf4-4807-b362-698cc7d1de5d")
 	)
-	(pad "106" thru_hole oval
+	(pad "106" smd oval
 		(at 2.275 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "0d5bd4b4-ffe9-409c-8eff-2978a177c7c0")
 	)
-	(pad "107" thru_hole oval
+	(pad "107" smd oval
 		(at 1.925 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "429c8d78-fb4c-4038-887d-4c533a64a5ce")
 	)
-	(pad "108" thru_hole oval
+	(pad "108" smd oval
 		(at 1.575 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "c25e1aa0-cbd4-4766-af2f-5be2bae43c21")
 	)
-	(pad "109" thru_hole oval
+	(pad "109" smd oval
 		(at 1.225 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "fc9d3392-d2df-4611-92a1-13c48317b86c")
 	)
-	(pad "110" thru_hole oval
+	(pad "110" smd oval
 		(at 0.875 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "ec16fbf9-cab5-4b54-9560-ec66572ec3ea")
 	)
-	(pad "111" thru_hole oval
+	(pad "111" smd oval
 		(at 0.525 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "2f0d8c5c-ee13-42cf-bd2b-87b8959e0612")
 	)
-	(pad "112" thru_hole oval
+	(pad "112" smd oval
 		(at 0.175 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b315cca0-199d-4597-94e4-48650ac73520")
 	)
-	(pad "113" thru_hole oval
+	(pad "113" smd oval
 		(at -0.175 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "31140b60-44a3-487a-bf24-526ceb22988b")
 	)
-	(pad "114" thru_hole oval
+	(pad "114" smd oval
 		(at -0.525 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "d98bbf8d-a36a-495f-bca0-9f4bf1e47748")
 	)
-	(pad "115" thru_hole oval
+	(pad "115" smd oval
 		(at -0.875 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "eb5e7e23-9728-4ee1-b53f-552c3b2382c1")
 	)
-	(pad "116" thru_hole oval
+	(pad "116" smd oval
 		(at -1.225 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "2d85fc78-5abe-4a84-90d1-e0ccef1b104a")
 	)
-	(pad "117" thru_hole oval
+	(pad "117" smd oval
 		(at -1.575 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8fcd4658-0e14-4d30-af87-7e7838f127c5")
 	)
-	(pad "118" thru_hole oval
+	(pad "118" smd oval
 		(at -1.925 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b25a3a8f-9376-44f9-b4c9-4a581a76fdc9")
 	)
-	(pad "119" thru_hole oval
+	(pad "119" smd oval
 		(at -2.275 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "0a45f5c3-25d6-413d-a9e5-183602a21ead")
 	)
-	(pad "120" thru_hole oval
+	(pad "120" smd oval
 		(at -2.625 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "f0bad0c7-6563-4356-91f5-409a8c29c8d5")
 	)
-	(pad "121" thru_hole oval
+	(pad "121" smd oval
 		(at -2.975 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "1fa473df-3ace-47f2-92e1-475132928f17")
 	)
-	(pad "122" thru_hole oval
+	(pad "122" smd oval
 		(at -3.325 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "5417ced7-7f63-45c1-bc88-ebe5e70834ad")
 	)
-	(pad "123" thru_hole oval
+	(pad "123" smd oval
 		(at -3.675 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "8802d5ed-ad9b-4ca5-a40b-0ff5525aa695")
 	)
-	(pad "124" thru_hole oval
+	(pad "124" smd oval
 		(at -4.025 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "aa416184-7666-4238-98cc-8256243cb709")
 	)
-	(pad "125" thru_hole oval
+	(pad "125" smd oval
 		(at -4.375 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "80dfa847-5692-4c5a-bb5e-fa33492e7404")
 	)
-	(pad "126" thru_hole oval
+	(pad "126" smd oval
 		(at -4.725 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "75980abc-bd40-4332-98c6-2351386b5852")
 	)
-	(pad "127" thru_hole oval
+	(pad "127" smd oval
 		(at -5.075 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "d0fb3d15-2e45-4843-ad06-f37e57132934")
 	)
-	(pad "128" thru_hole oval
+	(pad "128" smd oval
 		(at -5.425 -5.95 180)
 		(size 0.2 0.6)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "cf2bb619-bede-4e65-9ceb-61777738e385")
 	)
-	(pad "129" thru_hole rect
+	(pad "129" smd rect
 		(at 0 0)
 		(size 9 9)
-		(drill 0.000001)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "4f82a905-05cc-4d75-b39f-ff9c54a0b2fd")
 	)

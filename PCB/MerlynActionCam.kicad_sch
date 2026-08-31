@@ -10192,6 +10192,12 @@
 		(uuid "f32db172-a7a4-46d8-8a5c-81a8dd2cf41d")
 	)
 	(junction
+		(at 226.06 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00abc52a-b367-4e3e-8add-3d427252feba")
+	)
+	(junction
 		(at 260.35 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10202,6 +10208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01da157a-9900-4a1e-a66d-843c6b225bea")
+	)
+	(junction
+		(at 219.71 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02d881cb-8c51-488a-b792-7aa726a60a77")
 	)
 	(junction
 		(at 179.07 193.04)
@@ -10246,6 +10258,12 @@
 		(uuid "0bd2f5c6-df2c-4d9c-a168-8b1297aea102")
 	)
 	(junction
+		(at 187.96 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca3a456-4678-4c64-9b2e-2d539b9b4420")
+	)
+	(junction
 		(at 203.2 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10256,6 +10274,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fdc7552-59cb-4333-a05d-548fc0c928b0")
+	)
+	(junction
+		(at 162.56 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fde6201-122b-4964-969c-aaf0f80d28d0")
+	)
+	(junction
+		(at 130.81 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f84487-d618-42fe-a61a-e275b1023590")
 	)
 	(junction
 		(at 177.8 31.75)
@@ -10306,10 +10336,40 @@
 		(uuid "232a8a76-5129-4ff9-8996-89df3832875f")
 	)
 	(junction
+		(at 238.76 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "233ec08c-23ab-439a-aaa2-1ba7f1580f8a")
+	)
+	(junction
+		(at 134.62 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248d6572-8a17-45b1-b438-096f16907a37")
+	)
+	(junction
 		(at 389.89 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25bd73f0-d54a-48fc-9864-1d6db7563b16")
+	)
+	(junction
+		(at 181.61 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2699ba90-e62e-4d62-a8a1-07fe55d8207c")
+	)
+	(junction
+		(at 124.46 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "275139a5-0fef-40bf-8a8a-dd12b67cc8d7")
+	)
+	(junction
+		(at 219.71 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "299d5c10-0dea-41dd-97de-6f0433da27a8")
 	)
 	(junction
 		(at 240.03 317.5)
@@ -10336,6 +10396,12 @@
 		(uuid "318bdd74-70f1-4eb0-a91c-66ef3395c300")
 	)
 	(junction
+		(at 153.67 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329509e1-56fb-4531-a9c6-c2d124d3ef9f")
+	)
+	(junction
 		(at 393.7 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10352,6 +10418,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34b18049-0400-4b22-9678-a274101c3f05")
+	)
+	(junction
+		(at 232.41 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "361bc3a9-0f21-479a-a587-df5bc4c03ba2")
 	)
 	(junction
 		(at 17.78 38.1)
@@ -10372,6 +10444,12 @@
 		(uuid "425d38df-5271-4883-9c72-d7cc3f64298f")
 	)
 	(junction
+		(at 149.86 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43b8c6bb-33c1-4267-b902-2b3b9a7c0600")
+	)
+	(junction
 		(at 204.47 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10390,6 +10468,12 @@
 		(uuid "4ecfe87a-43e0-41d9-8970-56de7227244d")
 	)
 	(junction
+		(at 143.51 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eed6b15-feee-40e1-aa02-d1599086dd4b")
+	)
+	(junction
 		(at 85.09 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10402,10 +10486,22 @@
 		(uuid "529a3046-8968-42a6-8aae-99a1278206fd")
 	)
 	(junction
+		(at 147.32 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "530c74aa-bc84-4b64-a747-1d94f87fafac")
+	)
+	(junction
 		(at 433.07 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5769d4e7-30fe-4e5e-824b-dd017a3cd2bc")
+	)
+	(junction
+		(at 187.96 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a7408d9-2ace-448d-ba8c-f50cafa68c05")
 	)
 	(junction
 		(at 212.09 193.04)
@@ -10420,6 +10516,12 @@
 		(uuid "5ceb07b7-5d12-4340-8996-03abfd0fa8ad")
 	)
 	(junction
+		(at 207.01 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e325df7-95cb-444c-b9dc-b496c28565f5")
+	)
+	(junction
 		(at 445.77 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10430,6 +10532,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "638b781a-520a-4f55-a8e4-dcf77ec39826")
+	)
+	(junction
+		(at 130.81 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6646afdc-ec34-4fa6-94f5-abf1c6f9e555")
+	)
+	(junction
+		(at 213.36 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67841c7e-bd0f-4241-8384-95ca80648d0b")
 	)
 	(junction
 		(at 138.43 62.23)
@@ -10456,6 +10570,12 @@
 		(uuid "7015a2fd-b75e-46ab-8e2a-8e06aac72283")
 	)
 	(junction
+		(at 226.06 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713eda6b-b603-4a69-a197-f341a391d949")
+	)
+	(junction
 		(at 196.85 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10478,6 +10598,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d1ce88-0aaa-484d-ba0c-1f8db537e028")
+	)
+	(junction
+		(at 194.31 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77293298-f16f-4429-8bfc-f022fb109f62")
 	)
 	(junction
 		(at 134.62 184.15)
@@ -10540,6 +10666,18 @@
 		(uuid "803988dc-58ce-433a-b076-1acae09d6002")
 	)
 	(junction
+		(at 200.66 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f82130-ac1c-4d73-8adc-03f03550fc20")
+	)
+	(junction
+		(at 232.41 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f645e7-ea43-4de0-ad4a-b3ad17f15a44")
+	)
+	(junction
 		(at 153.67 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10552,10 +10690,28 @@
 		(uuid "8aafd325-928e-4642-b548-ff1d24e50f24")
 	)
 	(junction
+		(at 156.21 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7d8cdb-dceb-4da1-9f27-48fd55e32ac1")
+	)
+	(junction
 		(at 500.38 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "900a6433-94bc-45af-bdb7-5ebb0279f097")
+	)
+	(junction
+		(at 168.91 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9102e0aa-416b-4360-9506-c1ae662c04ec")
+	)
+	(junction
+		(at 137.16 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92443ece-5537-4a3c-84c7-037671ea2967")
 	)
 	(junction
 		(at 97.79 378.46)
@@ -10606,6 +10762,12 @@
 		(uuid "9e89968d-1b4c-4153-b9ba-cfc61ae735c8")
 	)
 	(junction
+		(at 168.91 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a082b398-6045-4618-86a7-26c75c718956")
+	)
+	(junction
 		(at 229.87 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10618,16 +10780,34 @@
 		(uuid "a3e8c03b-4fe8-4d48-8735-e8f8f2fac520")
 	)
 	(junction
+		(at 238.76 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a646f0dc-5625-4567-ab97-740e2ffb2709")
+	)
+	(junction
 		(at 299.72 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a68af4f2-e5b0-4e55-a662-5b0417fe2ecd")
 	)
 	(junction
+		(at 134.62 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a750f7c3-1d08-4c0b-ad35-ca697d1e6b00")
+	)
+	(junction
 		(at 269.24 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a787a78b-a50d-4417-a11d-030e44952e42")
+	)
+	(junction
+		(at 140.97 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8595c75-64bb-4175-baaa-88d540706ac6")
 	)
 	(junction
 		(at 171.45 193.04)
@@ -10666,6 +10846,12 @@
 		(uuid "b15dfc6d-a97d-430f-a28e-6754c371b8c6")
 	)
 	(junction
+		(at 137.16 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2cd2b3b-e24d-4c4e-b24b-5f81fcae408b")
+	)
+	(junction
 		(at 502.92 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10676,6 +10862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b64263b2-e931-441a-a438-8b4c87bd71a5")
+	)
+	(junction
+		(at 162.56 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f013ad-95d7-4c26-bca7-6bb87b040264")
 	)
 	(junction
 		(at 436.88 41.91)
@@ -10696,6 +10888,12 @@
 		(uuid "bf7b88e7-fb67-4d3b-a702-b5fc956fdaf2")
 	)
 	(junction
+		(at 194.31 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0eca692-d640-48d0-bc84-9a623f03663a")
+	)
+	(junction
 		(at 355.6 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10708,10 +10906,28 @@
 		(uuid "c2f15d53-80b9-487f-8a8c-90c2c32200c1")
 	)
 	(junction
+		(at 124.46 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e6810e-e26a-4966-8997-9c4295d3d5c6")
+	)
+	(junction
 		(at 433.07 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4beafe0-7fda-4abd-991c-8f80a87b79e2")
+	)
+	(junction
+		(at 147.32 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b214f7-ac4c-43c0-a2a4-183e78f6f702")
+	)
+	(junction
+		(at 181.61 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b94940-c233-42d6-bdb9-3c39c9cb154e")
 	)
 	(junction
 		(at 273.05 119.38)
@@ -10724,6 +10940,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6862214-2d09-4c92-bd4f-66d555e37503")
+	)
+	(junction
+		(at 149.86 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70bd959-6e37-457d-8cac-51762ca76e44")
 	)
 	(junction
 		(at 104.14 27.94)
@@ -10786,10 +11008,22 @@
 		(uuid "d962357b-c323-4bae-ae96-d1a125406b6d")
 	)
 	(junction
+		(at 200.66 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db425493-204e-40a3-adf5-8d8c2f295548")
+	)
+	(junction
 		(at 303.53 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc82a8fa-2c0a-486b-8f51-a2f4439f2533")
+	)
+	(junction
+		(at 143.51 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd248524-f7a1-435b-9176-ea222c59b827")
 	)
 	(junction
 		(at 128.27 62.23)
@@ -10828,6 +11062,12 @@
 		(uuid "e7d38a6a-e40c-4475-9ce9-a25d6f0525a7")
 	)
 	(junction
+		(at 213.36 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e818080a-9394-4beb-a737-056624d0d9fd")
+	)
+	(junction
 		(at 68.58 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10864,16 +11104,40 @@
 		(uuid "f7963d42-09bd-4e7b-99e8-efdde860835d")
 	)
 	(junction
+		(at 156.21 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4f258e-ecd0-4a89-8b45-629765bba64d")
+	)
+	(junction
 		(at 502.92 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb688eb9-82d1-4fb4-8a8c-579255a91844")
 	)
 	(junction
+		(at 207.01 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd4ffc06-8bcb-4250-86bd-5e15afe6220b")
+	)
+	(junction
+		(at 153.67 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd95109b-ffc6-446c-9a9d-daf5267d4a34")
+	)
+	(junction
 		(at 111.76 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff15e532-fa14-4e6c-9851-7e7ea8354660")
+	)
+	(junction
+		(at 140.97 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff170dbc-2e9f-4f3b-a0e0-55965ee351a7")
 	)
 	(junction
 		(at 254 379.73)
@@ -11281,6 +11545,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 171.45) (xy 226.06 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034048aa-39c6-4ee9-8fec-69983c84fc61")
+	)
+	(wire
+		(pts
 			(xy 474.98 60.96) (xy 516.89 60.96)
 		)
 		(stroke
@@ -11401,6 +11675,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 165.1) (xy 140.97 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f21c8b7-51a2-47b8-8d97-e7708ca523b6")
+	)
+	(wire
+		(pts
 			(xy 240.03 241.3) (xy 246.38 241.3)
 		)
 		(stroke
@@ -11428,6 +11712,16 @@
 			(type default)
 		)
 		(uuid "10ef20d9-87ee-445a-b519-3c1fec7f6757")
+	)
+	(wire
+		(pts
+			(xy 194.31 171.45) (xy 200.66 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112cc071-8c48-4034-8e08-cbafcce9d562")
 	)
 	(wire
 		(pts
@@ -11468,6 +11762,16 @@
 			(type default)
 		)
 		(uuid "154a22a5-908e-4dd4-9fd8-3ebab1506189")
+	)
+	(wire
+		(pts
+			(xy 128.27 165.1) (xy 134.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155ae952-a2db-409c-85c6-4ac7f2fb771a")
 	)
 	(wire
 		(pts
@@ -11561,6 +11865,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 153.67) (xy 156.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be98762-75dc-4a71-8f99-5328fbaa760f")
+	)
+	(wire
+		(pts
 			(xy 81.28 54.61) (xy 68.58 54.61)
 		)
 		(stroke
@@ -11568,6 +11882,26 @@
 			(type default)
 		)
 		(uuid "1c82e346-969c-4c55-9ade-0da583135ba9")
+	)
+	(wire
+		(pts
+			(xy 207.01 166.37) (xy 213.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9a42ed-bb53-483e-bb6a-21512fd44356")
+	)
+	(wire
+		(pts
+			(xy 156.21 158.75) (xy 162.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9be281-93a1-47dd-a581-e75a933ee63e")
 	)
 	(wire
 		(pts
@@ -11591,6 +11925,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 170.18) (xy 153.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de0cc07-4fbc-4508-9551-d5bf56ea57df")
+	)
+	(wire
+		(pts
 			(xy 119.38 77.47) (xy 120.65 77.47)
 		)
 		(stroke
@@ -11608,6 +11952,26 @@
 			(type default)
 		)
 		(uuid "1fc55b05-29ae-4dbd-8b6e-fe1b55352e6c")
+	)
+	(wire
+		(pts
+			(xy 128.27 170.18) (xy 134.62 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20edf456-5b7e-4a95-be69-bc3d3cc450b8")
+	)
+	(wire
+		(pts
+			(xy 140.97 170.18) (xy 147.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21106c15-4abe-4561-a795-664dbe685e54")
 	)
 	(wire
 		(pts
@@ -11811,6 +12175,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 170.18) (xy 140.97 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef63752-3dfe-43b8-bc66-5a10b2b22ee8")
+	)
+	(wire
+		(pts
 			(xy 81.28 38.1) (xy 76.2 38.1)
 		)
 		(stroke
@@ -11861,6 +12235,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 166.37) (xy 187.96 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353d1dca-e66f-4e73-b0b7-2b1f70a33d42")
+	)
+	(wire
+		(pts
+			(xy 194.31 166.37) (xy 200.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c02bf0-a9d5-4535-8742-e4706a902753")
+	)
+	(wire
+		(pts
 			(xy 143.51 193.04) (xy 146.05 193.04)
 		)
 		(stroke
@@ -11871,6 +12265,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 158.75) (xy 168.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fba442-36df-4e87-9009-7598e831b76f")
+	)
+	(wire
+		(pts
 			(xy 241.3 119.38) (xy 241.3 121.92)
 		)
 		(stroke
@@ -11878,6 +12282,16 @@
 			(type default)
 		)
 		(uuid "39bbe79c-3d12-4e4c-a4e7-803d7abdf1e5")
+	)
+	(wire
+		(pts
+			(xy 213.36 171.45) (xy 219.71 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2a2caf-5e1f-4412-8bc8-f788a30acf3b")
 	)
 	(wire
 		(pts
@@ -11941,6 +12355,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 153.67) (xy 137.16 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c1fcf2-e9aa-4dcb-8fa6-67bc1a18bc83")
+	)
+	(wire
+		(pts
 			(xy 502.92 54.61) (xy 506.73 54.61)
 		)
 		(stroke
@@ -12001,6 +12425,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 153.67) (xy 124.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a58449-05ad-4925-8a0c-fea000f93244")
+	)
+	(wire
+		(pts
 			(xy 240.03 88.9) (xy 240.03 93.98)
 		)
 		(stroke
@@ -12041,6 +12475,36 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 171.45) (xy 181.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1f54ab-c91e-4972-92b8-c8825024603e")
+	)
+	(wire
+		(pts
+			(xy 200.66 171.45) (xy 207.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e82a36d-ae9e-480d-988c-1d754ef45054")
+	)
+	(wire
+		(pts
+			(xy 232.41 166.37) (xy 238.76 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb8eef2-784e-4f3a-bd9d-8a54a4254074")
+	)
+	(wire
+		(pts
 			(xy 570.23 38.1) (xy 568.96 38.1)
 		)
 		(stroke
@@ -12068,6 +12532,16 @@
 			(type default)
 		)
 		(uuid "50a3063a-74bf-427b-9273-72b3c1d72b5c")
+	)
+	(wire
+		(pts
+			(xy 124.46 158.75) (xy 130.81 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516f4722-59b7-4a4e-918b-796a62d70a5b")
 	)
 	(wire
 		(pts
@@ -12141,6 +12615,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 153.67) (xy 168.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ce582b-4f2f-4f94-b680-36e1c3e92cb5")
+	)
+	(wire
+		(pts
 			(xy 259.08 363.22) (xy 250.19 363.22)
 		)
 		(stroke
@@ -12201,6 +12685,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 171.45) (xy 238.76 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581e359f-2e7c-487a-895e-7c9b27cec912")
+	)
+	(wire
+		(pts
 			(xy 138.43 27.94) (xy 138.43 29.21)
 		)
 		(stroke
@@ -12228,6 +12722,16 @@
 			(type default)
 		)
 		(uuid "597b239e-e8b9-4e08-82ad-edb0e0f0554c")
+	)
+	(wire
+		(pts
+			(xy 137.16 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a2f28b-d79c-4c2d-8d95-9d4df85b12be")
 	)
 	(wire
 		(pts
@@ -12311,6 +12815,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 171.45) (xy 232.41 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619b47c2-b620-4fdd-8c47-248bc209dfbb")
+	)
+	(wire
+		(pts
 			(xy 120.65 74.93) (xy 120.65 77.47)
 		)
 		(stroke
@@ -12328,6 +12842,16 @@
 			(type default)
 		)
 		(uuid "638e0d7d-8604-4daa-96e8-3c03ba9d3dd7")
+	)
+	(wire
+		(pts
+			(xy 143.51 153.67) (xy 149.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ef1fec-ca7c-4721-b093-7727ec016fb1")
 	)
 	(wire
 		(pts
@@ -12388,6 +12912,16 @@
 			(type default)
 		)
 		(uuid "68ed6b85-b87c-42c4-b332-8479582d1847")
+	)
+	(wire
+		(pts
+			(xy 226.06 166.37) (xy 232.41 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69676cc3-a1fc-455b-bea5-7546e9ad2514")
 	)
 	(wire
 		(pts
@@ -12801,6 +13335,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 166.37) (xy 194.31 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea3c2bd-bbe1-4fbc-b196-515a64da666a")
+	)
+	(wire
+		(pts
 			(xy 500.38 29.21) (xy 504.19 29.21)
 		)
 		(stroke
@@ -12951,6 +13495,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 165.1) (xy 153.67 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c55d18-829d-4276-9632-9a29e02145a9")
+	)
+	(wire
+		(pts
 			(xy 466.09 44.45) (xy 477.52 44.45)
 		)
 		(stroke
@@ -13021,6 +13575,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 166.37) (xy 219.71 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d09e7f7-6726-4455-81dd-fecff20607a3")
+	)
+	(wire
+		(pts
 			(xy 269.24 90.17) (xy 269.24 92.71)
 		)
 		(stroke
@@ -13038,6 +13602,16 @@
 			(type default)
 		)
 		(uuid "9ea77c42-29e4-4e6b-abb1-6b7e15edf8e3")
+	)
+	(wire
+		(pts
+			(xy 130.81 158.75) (xy 137.16 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f794bd0-e97e-44f2-855d-54fd983f3280")
 	)
 	(wire
 		(pts
@@ -13231,6 +13805,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 165.1) (xy 147.32 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af263044-e325-4f27-b8bb-cd5a3ab12865")
+	)
+	(wire
+		(pts
 			(xy 269.24 335.28) (xy 269.24 336.55)
 		)
 		(stroke
@@ -13248,6 +13832,26 @@
 			(type default)
 		)
 		(uuid "b0d97d75-6194-4fb5-ba30-e6b8eb07ab5c")
+	)
+	(wire
+		(pts
+			(xy 143.51 158.75) (xy 149.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0eb0cbe-89bd-4ab9-85e3-b9eee89bf4fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 153.67) (xy 130.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b233cfa1-5b3e-4ffc-bf87-025c61e3d5de")
 	)
 	(wire
 		(pts
@@ -13408,6 +14012,26 @@
 			(type default)
 		)
 		(uuid "bddc7be7-6eb2-4a68-9419-fa1d8dcdd9c4")
+	)
+	(wire
+		(pts
+			(xy 207.01 171.45) (xy 213.36 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be925454-9a3e-4f9e-bf60-a4e8686e4159")
+	)
+	(wire
+		(pts
+			(xy 175.26 166.37) (xy 181.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0912d1-58a8-406a-9694-3169e658eca6")
 	)
 	(wire
 		(pts
@@ -13721,6 +14345,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 171.45) (xy 194.31 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f9ad09-30b8-40e6-af02-0575e210c1e0")
+	)
+	(wire
+		(pts
 			(xy 186.69 31.75) (xy 177.8 31.75)
 		)
 		(stroke
@@ -13771,6 +14405,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 158.75) (xy 156.21 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc390eb1-d05b-4f46-9228-cc5a97ba7c8a")
+	)
+	(wire
+		(pts
 			(xy 97.79 373.38) (xy 93.98 373.38)
 		)
 		(stroke
@@ -13778,6 +14422,26 @@
 			(type default)
 		)
 		(uuid "dc9d7e57-5fce-4ce2-a798-fe305b281836")
+	)
+	(wire
+		(pts
+			(xy 137.16 158.75) (xy 143.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0f77f0-0def-4db9-ac0f-e7a41c4433b6")
+	)
+	(wire
+		(pts
+			(xy 200.66 166.37) (xy 207.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1badb0-adf8-49f5-9781-1aaaa6f6b73a")
 	)
 	(wire
 		(pts
@@ -13891,6 +14555,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 153.67) (xy 162.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95d5075-d98c-4c1a-aeea-d0fe667b2eab")
+	)
+	(wire
+		(pts
 			(xy 97.79 378.46) (xy 100.33 378.46)
 		)
 		(stroke
@@ -13938,6 +14612,16 @@
 			(type default)
 		)
 		(uuid "ef66cf82-271d-4582-b344-d876135961d9")
+	)
+	(wire
+		(pts
+			(xy 219.71 166.37) (xy 226.06 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe1bdde-cac7-4ee8-8c74-0e3cd744a631")
 	)
 	(wire
 		(pts
@@ -14051,6 +14735,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e2a89f-3281-4889-aa89-2f9fffe6bf0b")
+	)
+	(wire
+		(pts
 			(xy 129.54 97.79) (xy 142.24 97.79)
 		)
 		(stroke
@@ -14158,6 +14852,16 @@
 			(type default)
 		)
 		(uuid "fb1eece0-b080-498c-8a9d-93570f7cb5fa")
+	)
+	(wire
+		(pts
+			(xy 181.61 171.45) (xy 187.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5b1a07-bef6-482c-b7ad-9378c26aa54c")
 	)
 	(wire
 		(pts
@@ -16671,6 +17375,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05789da3-29a7-4e77-b210-c94392859ac6")
+		(property "Reference" "C46"
+			(at 134.874 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 134.874 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc2f6fb7-d4d1-418f-acb6-2f9f86cf21be")
+		)
+		(pin "2"
+			(uuid "7a949b16-1480-44e7-b2c0-22c0c830c538")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "076170b7-0514-40c7-be74-a5160a602bb1")
+		(property "Reference" "C51"
+			(at 200.914 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 200.914 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03290ee7-baeb-42b3-8786-35514c219c3a")
+		)
+		(pin "2"
+			(uuid "99a708ee-1798-4192-905b-37a1a47342d4")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 69.85 72.39 0)
 		(unit 1)
@@ -16732,6 +17592,84 @@
 			(project ""
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b4aae4-c467-4d39-bca6-4f541166e593")
+		(property "Reference" "C40"
+			(at 150.114 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.114 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8191ecf-989d-4bb1-8d21-ae3b15baf7ef")
+		)
+		(pin "2"
+			(uuid "8a7c4a00-79ad-4196-b808-6f01438a540b")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -17076,6 +18014,84 @@
 			(project ""
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c741b98-7c86-4ba7-a92d-3a981a37575c")
+		(property "Reference" "C52"
+			(at 207.264 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 207.264 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9db51a1-85ba-426e-9bba-353689eb9d44")
+		)
+		(pin "2"
+			(uuid "e0fd8372-d0ed-461e-8a7c-516a821dc61b")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -18401,6 +19417,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e05b5e8-0417-4dc8-8db4-373d946b0ad9")
+		(property "Reference" "#PWR0119"
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "443ba1fa-471e-4709-ac59-5bda8ecbd310")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 248.92 270.51 0)
 		(unit 1)
@@ -19619,6 +20700,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34ff49be-be01-458e-b51a-f68378fe1bfe")
+		(property "Reference" "C42"
+			(at 162.814 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 162.814 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 162.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 162.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c75368-ed2c-4794-b103-7ab98b1feed4")
+		)
+		(pin "2"
+			(uuid "2a65f277-c85a-4c14-8738-7a510d494f56")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 226.06 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35b5c9ab-298c-477e-b18b-020c66957d8b")
+		(property "Reference" "C55"
+			(at 226.314 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 226.314 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d684abb-070d-4079-8a9d-be17840265b3")
+		)
+		(pin "2"
+			(uuid "e54d68fb-604c-4345-9fe6-51c3f9442f53")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MerlynActionCam:T201624MBBCE2X")
 		(at 261.62 370.84 270)
 		(unit 1)
@@ -20386,6 +21623,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "457730fa-c3ee-45a1-81e1-7aabe4f1002d")
+		(property "Reference" "#PWR0116"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 150.368 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0193fac6-162a-499d-88ec-1f63ad0a1dd2")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cfca74-d3d2-4f8c-87cf-cb0922b27463")
+		(property "Reference" "C61"
+			(at 175.514 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 175.514 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 175.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 175.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d610d9-84b6-4a6b-a8c6-caa39528662d")
+		)
+		(pin "2"
+			(uuid "5363955d-d337-4ecb-bed8-35f654fb74a3")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 379.73 119.38 180)
 		(unit 1)
@@ -20738,6 +22119,84 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 181.61 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bc00f5a-be5e-4c75-afcd-8e3e7c0c0cf9")
+		(property "Reference" "C60"
+			(at 181.864 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 181.864 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce197dd-40d3-4f72-b61d-e1d1aa9ff5ec")
+		)
+		(pin "2"
+			(uuid "b1883f7b-8b67-4bd5-989e-879a7529b520")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -21382,6 +22841,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 238.76 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55383929-dd9f-4472-bf12-471a1e69bb50")
+		(property "Reference" "C57"
+			(at 239.014 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 239.014 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 238.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc603f7f-2cb7-4aeb-be15-6ce553db0ffd")
+		)
+		(pin "2"
+			(uuid "dfb6cd0d-011d-4d4c-8286-e713acc28048")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 99.06 0)
 		(unit 1)
@@ -21957,6 +23494,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a47e08f-9d1b-4f75-967e-1b106a621c8b")
+		(property "Reference" "C54"
+			(at 219.964 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 219.964 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6027f251-1207-43b9-95c1-9a86bcb42f73")
+		)
+		(pin "2"
+			(uuid "80a8cf02-b4ab-433f-bb8e-c63840c21f05")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 326.39 46.99 270)
 		(mirror x)
@@ -22232,6 +23847,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cd9a317-442f-4067-abed-a93e80cdc4f9")
+		(property "Reference" "#PWR0117"
+			(at 153.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c12ddc67-09af-4e07-bc1c-d00e17cf893e")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 128.27 59.69 0)
 		(mirror y)
@@ -22376,6 +24056,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60ed5932-a351-48ba-856e-f752c67332d0")
+		(property "Reference" "C48"
+			(at 147.574 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 147.574 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e2aa919-25ea-4ba6-9d13-6d5393e09d6c")
+		)
+		(pin "2"
+			(uuid "3c786a23-5dff-42dd-8fd1-a25b5a3ea5b6")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 389.89 41.91 0)
 		(mirror x)
@@ -22449,6 +24207,71 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "627b1db4-e41b-4146-afa7-2e609e622c9a")
+		(property "Reference" "#PWR0115"
+			(at 168.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acde38c-51b1-4e3f-8e61-76d3cc5e37d5")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -23551,6 +25374,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aa0ae9b-fed2-4b36-a93a-07d44ce09f95")
+		(property "Reference" "C41"
+			(at 156.464 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 156.464 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65793558-f39a-4743-8f70-d76dcb9e5800")
+		)
+		(pin "2"
+			(uuid "b14d6411-b4a6-43cb-85db-14e87c2c1bb1")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 445.77 55.88 180)
 		(unit 1)
@@ -23688,6 +25589,84 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d960523-8dd9-4add-a782-7f2396f20a4e")
+		(property "Reference" "C59"
+			(at 188.214 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 188.214 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 187.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 187.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 187.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5158c78-55c9-43b7-a40d-5126a6de3b0e")
+		)
+		(pin "2"
+			(uuid "c1302e3c-7c69-4f8a-ab80-2e2706837626")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -24352,6 +26331,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c027af-0292-4280-a8f7-9aed81d0be8c")
+		(property "Reference" "C56"
+			(at 232.664 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.664 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f331d7-66c1-4fa3-ab45-413d4be88c12")
+		)
+		(pin "2"
+			(uuid "04d2a58a-a876-44d1-b187-9f508a8b697c")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 257.81 312.42 0)
 		(unit 1)
@@ -24568,6 +26625,84 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7975a2e1-23b9-4d50-b9fd-ac8735f8450a")
+		(property "Reference" "C53"
+			(at 213.614 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 213.614 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 213.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 213.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 213.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3cc596e-efef-4130-9120-a7f895a23434")
+		)
+		(pin "2"
+			(uuid "56199e15-6193-485c-998e-9e7b65db469c")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -25283,6 +27418,84 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 153.67 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a03c05-b9e2-4843-93e7-9e77f5ef7898")
+		(property "Reference" "C49"
+			(at 153.924 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 153.924 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7ae586-795b-44a4-ba53-6c5a100b565a")
+		)
+		(pin "2"
+			(uuid "9ec7469d-9b49-4746-9764-dd798984a035")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 339.09 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25354,6 +27567,72 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 168.91 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87013af2-73a9-48ac-bf2d-344646814e17")
+		(property "Reference" "#PWR0109"
+			(at 168.91 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.862 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83e41c1a-ac13-47e7-b710-4442179dc552")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -26002,6 +28281,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f093269-9857-4528-a809-cef176a37060")
+		(property "Reference" "C39"
+			(at 143.764 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 143.764 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf27ba85-8607-4943-a307-9edb660da67c")
+		)
+		(pin "2"
+			(uuid "c91ef28f-e478-4534-bdd6-9589db12a40f")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 99.06 0)
 		(unit 1)
@@ -26604,6 +28961,84 @@
 			(project ""
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 140.97 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96fb1a2f-207e-4272-9f29-de4969d20303")
+		(property "Reference" "C47"
+			(at 141.224 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 141.224 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf995c5-d0ed-4666-aee4-3a9631d3faaa")
+		)
+		(pin "2"
+			(uuid "503ef3ec-54f8-402e-8bc7-6f4c23816c8d")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -27352,6 +29787,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a121db5c-aaa4-4807-9e30-c19f122f2dac")
+		(property "Reference" "C45"
+			(at 128.524 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 128.524 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d020cbf5-0072-41fb-9d3f-821f74ae8f44")
+		)
+		(pin "2"
+			(uuid "f7350627-684e-4eb9-89f4-c37e1202b2c0")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 22.86 38.1 90)
 		(unit 1)
@@ -27424,6 +29937,84 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a163a178-9908-4655-99df-c94e7fc53993")
+		(property "Reference" "C50"
+			(at 194.564 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 194.564 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aafdc8de-e23f-4d53-b270-e1e5a7db4f58")
+		)
+		(pin "2"
+			(uuid "e36f7cfb-59e1-4492-b1c4-85eec5820235")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -27643,6 +30234,84 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.81 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a69014a1-b6d6-4734-b636-af4d91cf4723")
+		(property "Reference" "C37"
+			(at 131.064 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 131.064 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83396c50-d8a5-4c45-83fb-912e065638a4")
+		)
+		(pin "2"
+			(uuid "9f441e40-8ef9-4910-a60d-0b48cc558e9a")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -28131,6 +30800,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b196f96d-cddc-4369-b6e8-f3ffb96bcc24")
+		(property "Reference" "C43"
+			(at 169.164 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 169.164 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 168.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 168.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "400b00e1-021c-4ded-a0d7-bda08ce496af")
+		)
+		(pin "2"
+			(uuid "07fbf1d9-8273-480e-8d55-25436b41ca1a")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 86.36 180)
 		(unit 1)
@@ -28463,6 +31210,72 @@
 			(project ""
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 238.76 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc210582-ccb4-47ae-88e0-2da673fe6497")
+		(property "Reference" "#PWR0120"
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V0"
+			(at 235.712 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88e06bf0-98f8-4eea-9de7-99f99943ed02")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -31161,6 +33974,84 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 137.16 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcaf1bf5-a165-41d8-9421-bc78e197ce5a")
+		(property "Reference" "C38"
+			(at 137.414 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 137.414 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 137.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0.1uF, 0402, 50V"
+			(at 137.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 137.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e01e02-372c-40fa-a34f-4a4a76d8eca9")
+		)
+		(pin "2"
+			(uuid "513122ea-922e-4453-99e4-48283f9dd71a")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 273.05 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31662,6 +34553,162 @@
 			(project "MerlynActionCam"
 				(path "/87d09840-694d-4014-a159-e691c619b33e"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 118.11 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3963d49-a3c4-431c-bf39-da578e78ffb5")
+		(property "Reference" "C58"
+			(at 118.364 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 118.364 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00664aea-dddd-4e6a-a3bb-3128c6af1126")
+		)
+		(pin "2"
+			(uuid "c8f50b15-c34f-4977-87fd-c8e1af21065d")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5e41535-b757-4bee-879c-0f8b82689311")
+		(property "Reference" "C44"
+			(at 124.714 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 124.714 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10uF, 0603, 25V"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e7b49e-1d59-42ea-936c-ace396f714d5")
+		)
+		(pin "2"
+			(uuid "7b869cc5-00a7-4d25-b0dc-3af1e3bafdf9")
+		)
+		(instances
+			(project "MerlynActionCam"
+				(path "/87d09840-694d-4014-a159-e691c619b33e"
+					(reference "C44")
 					(unit 1)
 				)
 			)
