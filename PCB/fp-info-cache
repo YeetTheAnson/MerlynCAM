@@ -1,4 +1,4 @@
-26276573294338279
+26278362010808658
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104334,6 +104334,13 @@ MIC-SMD_INMP441
 0
 11
 9
+easyeda2kicad
+MountingHole
+
+
+0
+0
+0
 easyeda2kicad
 QFN-20_L3.0-W3.0-P0.40-TL-EP1.7
 
