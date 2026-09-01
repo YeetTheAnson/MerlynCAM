@@ -9,10 +9,12 @@ The MerlynCAM is powered by the Sigmastar SSC338Q SOC. It is easy to use and inc
 
 ![image](assets/assembledRender.png)
 ![image](assets/assembledRenderBreakdown.png)
-![image](assets/boardFront.png)
+![image](assets/renderFront.png)
+![image](assets/renderBack.png)
+
 
 ## User Guide
-The MerlynCAM operates using a single button to communicate charge status and battery levels using a White LED
+The MerlynCAM operates using a single button and shows charge status and battery levels using a White LED
 
 ### Power & Recording Control
 - **Power On:** Press the button once, then press and hold for 2 seconds. The White LED will blink rapidly while holding, then turn solid to indicate it is booting. Release the button.
@@ -89,6 +91,7 @@ Because the SSC338Q is a proprietary chip, it must run the OpenIPC linux environ
 ### How to flash the firmware (SSC338Q)
 The W25Q128 16MB flash chip comes blank from the factory and the bootloader must be flashed before the operating system is able to boot.
 1. Connect the CH341A USB programmer or a makeshift Arduino programmer to flash the binary file to the W25Q128 flash chip. The file can be obtained in [firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin) or the [OpenIPC repository](https://openipc.org/cameras/vendors/sigmastar/socs/ssc338q/download_full_image?flash_size=16&flash_type=nor&fw_release=ultimate&layout=16) or compiled locally.
+
 ![image](assets/flashProg.png)
 
 ### How to flash the firmware (CH32V003)
