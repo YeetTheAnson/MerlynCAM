@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.98 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "2359512c-b96d-4b08-83f8-224722822bd6")
 		(effects
 			(font
@@ -332,6 +333,89 @@
 		(layer "F.Fab")
 		(uuid "920353b9-0288-4c73-8496-c1f1a948a6cf")
 	)
+	(fp_text user "MAVLINK"
+		(at -2.14 -4.83 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1265d5b8-90a0-43ba-92fe-6515dbfe649a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -1.87 -3.79 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "130beaa2-734c-4721-aa0e-0058ea214190")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "T"
+		(at 1.13 -2.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1586ae17-034f-4a15-b2ab-ddb8f75c4474")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "G"
+		(at -0.97 -2.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3652f2aa-e1bd-4057-95f6-b1f1e608199a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5-14V"
+		(at -1.77 -3.91 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5b6caf98-decc-4488-83e7-1b9f3e83138d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.0875)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "R"
+		(at 0.03 -2.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c43b10d0-1887-4b15-ae7d-82c2c7f9b504")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -386,15 +470,15 @@
 		(uuid "c7492c25-e054-4817-83f4-8bd6247a9d38")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
+	(model "${KIPRJMOD}/lib/lcsc/easyeda2kicad.pretty/CONN-SMD_4P-P1.00_HCTL_HC-1.0-4PWT.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -0.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

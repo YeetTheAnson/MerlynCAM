@@ -1,0 +1,49 @@
+Category,Item Name,Description,Link,Vendor,Quantity,Total Price (USD)
+PCB Components,CL10A106MA8NRNC,10uF 0603 capacitor,https://www.lcsc.com/product-detail/C96446.html,LCSC,20,1.30
+PCB Components,CL05A475MP5NRNC,4.7uF 0402 capacitor,https://www.lcsc.com/product-detail/C23733.html,LCSC,50,1.17
+PCB Components,CL05B104KB54PNC,0.1uF 0402 capacitor,https://www.lcsc.com/product-detail/C307331.html,LCSC,100,0.89
+PCB Components,CC0402KRX7R9BB473,47nF 0402 capacitor,https://www.lcsc.com/product-detail/C272875.html,LCSC,100,0.41
+PCB Components,CL05A105KA5NQNC,1uF 0402 capacitor,https://www.lcsc.com/product-detail/C52923.html,LCSC,50,0.61
+PCB Components,CL10A226MQ8NRNC,22uF 0603 capacitor,https://www.lcsc.com/product-detail/C59461.html,LCSC,20,0.63
+PCB Components,0402B223K500NT,22nF 0402 capacitor,https://www.lcsc.com/product-detail/C1532.html,LCSC,50,0.58
+PCB Components,0402CG8R0C500NT,8pF 0402 capacitor,https://www.lcsc.com/product-detail/C1578.html,LCSC,100,0.36
+PCB Components,CDZVT2R5.1B,5.1V Clamp SOD923 zener,https://www.lcsc.com/product-detail/C414245.html,LCSC,20,0.64
+PCB Components,HC-1.0-4PWT,4P JST-SH connector,https://www.lcsc.com/product-detail/C2845363.html,LCSC,5,0.47
+PCB Components,FTC201610S1R5MBCA,1.5uH 0806 inductor,https://www.lcsc.com/product-detail/C5832343.html,LCSC,10,0.98
+PCB Components,FTC201610SR47MBCA,0.47 uH 0806 inductor,https://www.lcsc.com/product-detail/C5832340.html,LCSC,10,0.98
+PCB Components,YLED0602RSIDE,Red 0602 right angle LED,https://www.lcsc.com/product-detail/C49446796.html,LCSC,20,0.49
+PCB Components,YLED0602WSIDE,White 0602 right angle LED,https://www.lcsc.com/product-detail/C46635136.html,LCSC,50,0.99
+PCB Components,AO3401A,P channel MOSFET,https://www.lcsc.com/product-detail/C15127.html,LCSC,5,0.49
+PCB Components,0402WGF1003TCE,100k 0402 resistor,https://www.lcsc.com/product-detail/C25741.html,LCSC,100,0.28
+PCB Components,FRC0402F2700TS,270R 0402 resistor,https://www.lcsc.com/product-detail/C2909342.html,LCSC,100,0.25
+PCB Components,FRC0402F9100TS,910R 0402 resistor,https://www.lcsc.com/product-detail/C2909392.html,LCSC,100,0.18
+PCB Components,0402WGF1002TCE,10k 0402 resistor,https://www.lcsc.com/product-detail/C25744.html,LCSC,100,0.31
+PCB Components,0402WGF5101TCE,5.1k 0402 resistor,https://www.lcsc.com/product-detail/C25905.html,LCSC,100,0.26
+PCB Components,0402WGF5602TCE,56k 0402 resistor,https://www.lcsc.com/product-detail/C25796.html,LCSC,100,0.68
+PCB Components,0402WGF1502TCE,15k 0402 resistor,https://www.lcsc.com/product-detail/C25756.html,LCSC,100,0.58
+PCB Components,FRC0402F3602TS,36k 0402 resistor,https://www.lcsc.com/product-detail/C2930004.html,LCSC,100,0.19
+PCB Components,0402WGF1000TCE,100R 0402 resistor,https://www.lcsc.com/product-detail/C25076.html,LCSC,100,0.77
+PCB Components,0402WGF5102TCE,51k 0402 resistor,https://www.lcsc.com/product-detail/C25794.html,LCSC,100,0.19
+PCB Components,0402WGF4701TCE,4.7k 0402 resistor,https://www.lcsc.com/product-detail/C25900.html,LCSC,100,0.29
+PCB Components,0402WGF2003TCE,200k 0402 resistor,https://www.lcsc.com/product-detail/C25764.html,LCSC,100,0.32
+PCB Components,TS24CA,Right angle button,https://www.lcsc.com/product-detail/C393942.html,LCSC,20,0.51
+PCB Components,TPS63802DLAR,Buck boost converter,https://www.lcsc.com/product-detail/C2845237.html,LCSC,2,2.05
+PCB Components,BQ25606RGER,Battery charge and management,https://www.lcsc.com/product-detail/C374063.html,LCSC,1,1.63
+PCB Components,RT8097CHGE,Buck converter,https://www.lcsc.com/product-detail/C3031673.html,LCSC,5,0.80
+PCB Components,CH32V003F4U6,CH32 for interface and power management,https://www.lcsc.com/product-detail/C5299908.html,LCSC,5,1.58
+PCB Components,RT9193-18GB,1.8V Linear LDO regulator,https://www.lcsc.com/product-detail/C27416.html,LCSC,5,0.83
+PCB Components,ICS-43434,I2S MEMS microphone,https://www.lcsc.com/product-detail/C5656610.html,LCSC,1,4.13
+PCB Components,BMI270,IMU,https://www.lcsc.com/product-detail/C2836813.html,LCSC,1,3.25
+PCB Components,W25Q128JVSIQ,16 MB NOR flash,https://www.lcsc.com/product-detail/C97521.html,LCSC,1,2.62
+PCB Components,TF-115-BCP9,SD card connector,https://www.lcsc.com/product-detail/C720505.html,LCSC,5,0.49
+PCB Components,TYPE-C 16PIN 2MD(073),TYPE C Connector,https://www.lcsc.com/product-detail/C2765186.html,LCSC,20,1.49
+PCB Components,T201624MBBCE2X,24MHz 2016 crystal resonator,https://www.lcsc.com/product-detail/C7303340.html,LCSC,10,0.71
+PCB,PCB,Bare PCB,-,JLCPCB,1,7.00
+PCB,Stencil,Stencil,-,JLCPCB,1,10.45
+PCB,JLCPCB Shipping,Shipping (No idea how this is cheaper than E post. Will check again after),-,UPS Saver,1,9.18
+Parts,OK-10F030-04,30P 0.4mm Mezzanine connector,https://www.aliexpress.com/item/1005008289234567.html,AliExpress,1,2.09
+Parts,SSC338Q,Main recording SOC,https://www.aliexpress.com/item/1005009947110808.html,AliExpress,1,16.99
+Parts,IMX415 camera module,IMX415 camera module 140 FOV,https://www.aliexpress.com/item/1005009005078802.html,AliExpress,1,32.69
+Parts,AliExpress Shipping,Shipping,-,AliExpress,1,9.74
+,,,,,,
+Grand Total,123.52,,,,,
