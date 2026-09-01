@@ -98,11 +98,12 @@ The W25Q128 16MB flash chip comes blank from the factory and the bootloader must
 1. Connect the WCH Link USB adapter to the SWDIO test point
 <img src="assets/boardBack.png" width="300">
 2. Connect the USB C port. The MerlynCAM PCB and WCH Link USB adapter must share common ground (e.g. connected to the same laptop)
-3. If compiling locally, press the upload button in Arduino IDE. Or use WCH-LinkUtility if flashing the pre compile binary in [/firmware/binaries/(CH32V003)powerManagement.hex](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/(CH32V003)powerManagement.hex)
+3. If compiling locally, press the upload button in Arduino IDE. Or use WCH-LinkUtility if flashing the pre compile binary in [(CH32V003)powerManagement.hex](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/%28CH32V003%29powerManagement.hex)
 
 
 
 ## Bill of Material
+Note: The prices in USD are converted as of 1 September 2026 and may fluctuate. The costs of separate components are cheaper than JLCPCB assembly.
 
 | Category | Item Name | Description | Link | Vendor | Quantity | Total Price (USD) |
 |---|---|---|---|---|---:|---:|
