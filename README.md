@@ -3,10 +3,11 @@
 ## Introduction
 This project was made possible thanks the reverse engineering efforts done by the OpenIPC team! You can check out their supported hardware here: https://openipc.org/supported-hardware/featured and the reference project here: https://oshwlab.com/oshwhub.com/openipc-vtx-ssc338q-30kq
 
-This is my custom action camera, the MerlynCAM! This project was made to record HD footage on my FPV drones. It records video at 1080p@90, 1440p@60 and 4k@20. It also includes a BMI270 gyro to log motion data at 150Hz for Gyroflow video stabilization, and an ICS-43434 I2S microphone to capture propeller noise for extra immersion.
+This is my custom action camera, the MerlynCAM! This project was made to record HD footage on my FPV drones. It records video at 1080p@90, 1440p@60 and 4k@20. It also includes a BMI270 gyro to log motion data at 150Hz for Gyroflow video stabilization, and an ICS-43434 I2S microphone to capture propeller noise for the viewer's immersion.
 
-The MerlynCAM is powered by the Sigmastar SSC338Q SOC. It is easy to use and includes an auxiliary low power microcontroller to manage the user interface. It handles single button power on and recording, auto power on when external voltage is detected, and battery level monitoring. It has an internal 1S battery with a BQ25606 charging circuit so it can be used like a normal action cam, or with the batteries removed to save weight on a drone.
+The MerlynCAM is powered by the Sigmastar SSC338Q SOC. It is easy to use and includes a low power microcontroller onboard to manage the LED indicators, buttons, and power saving modes. There is only one used for powering the camera on and off and starting and stopping recordings. The microcontroller handles the rest of the quality of life features in the background, such as battery level monitoring and auto power on when external voltage is detected in FPV mode. It also has an internal 1S battery with a BQ25606 charging circuit, so it can be used like a normal action cam or with the batteries removed to save weight on a drone.
 
+![image](assets/banner.png)
 ![image](assets/assembledRender.png)
 ![image](assets/assembledRenderBreakdown.png)
 ![image](assets/renderFront.png)
@@ -14,41 +15,64 @@ The MerlynCAM is powered by the Sigmastar SSC338Q SOC. It is easy to use and inc
 
 
 ## User Guide
-The MerlynCAM operates using a single button and shows charge status and battery levels using a White LED
+The MerlynCAM is operated using a single button and it shows charge status and battery levels using a White LED
 
 ### Power & Recording Control
-- **Power On:** Press the button once, then press and hold for 2 seconds. The White LED will blink rapidly while holding, then turn solid to indicate it is booting. Release the button.
+- **Power On:** Press the button once, then press and hold for 2 seconds. The White LED will blink rapidly while holding, then turn solid to indicate it is booting. Release the button afterwards.
+
+<img src="assets/powerOnSequence.gif" width="300">
 
 > [!TIP]
 > The camera will refuse to power on if the battery is below 5%
 
 - **Power Off:** Press and hold the button for 4 seconds. The White LED will blink rapidly after 2 seconds, then blink twice and turn off.
 
+<img src="assets/powerOffSequence.gif" width="300">
+
 - **Start/Stop Recording:** While the camera is powered on, hold the button for 1 second to start recording. Hold for 1 second again to stop recording.
+
+<img src="assets/startStopRec.gif" width="300">
 
 ### Battery Level Checking
 While powered off, press the button once. The White LED will blink to indicate the current charge level:
 
 - **\>95%:** 4 normal blinks + 3 rapid blinks
+
+<img src="assets/95.gif" width="300">
+
 - **80-95%** 4 blinks
+
+<img src="assets/80.gif" width="300">
+
 - **60-79%:** 3 blinks
+
+<img src="assets/60.gif" width="300">
+
 - **40-59%:** 2 blinks
+
+<img src="assets/40.gif" width="300">
+
 - **20-39%:** 1 blink
+
+<img src="assets/20.gif" width="300">
+
 - **\< 5%:** 3 rapid blinks
 
+<img src="assets/5.gif" width="300">
+
 ### Passive Indicator
-- **Charging:** The White LED will pulse slowly
+- **Charging:** The white LED will pulse slowly while charging. Once fully charged, it will remain solid until the power is disconnected
+
+<img src="assets/charge.gif" width="300">
+
 - **Battery Status:** The White LED automatically flashes the current battery percentage every 3.5 seconds
-- **Recording:** The Red LED flashes every 1 second
 
 > [!IMPORTANT]
 > Bridge the CHRG pad on the PCB if no battery is connected. This is necessary for the battery management IC to output a stable voltage on external power.
 
-
-
 ## Hardware Specifications
 * **SOC:** Sigmastar SSC338Q
-* **Camera Interface:** 30 pin mezzanine connector (Orange Pi 5 compatible)
+* **Camera Interface:** 30 pin mezzanine connector (compatible with Orange Pi 5)
 * **IMU:** BMI270 @ I2C
 * **Microphone:** ICS-43434 @ I2S
 * **Storage:** Micro SD Card slot + W25Q128JVSIQ 16MB NOR Flash
@@ -89,8 +113,8 @@ Because the SSC338Q is a proprietary chip, it must run the OpenIPC linux environ
 
 
 ### How to flash the firmware (SSC338Q)
-The W25Q128 16MB flash chip comes blank from the factory and the bootloader must be flashed before the operating system is able to boot.
-1. Connect the CH341A USB programmer or a makeshift Arduino programmer to flash the binary file to the W25Q128 flash chip. The file can be obtained in [firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin) or the [OpenIPC repository](https://openipc.org/cameras/vendors/sigmastar/socs/ssc338q/download_full_image?flash_size=16&flash_type=nor&fw_release=ultimate&layout=16) or compiled locally.
+The W25Q128 16MB flash chip comes blank from the factory and the openIPC bootloader must be flashed before the operating system is able to boot.
+1. Connect the CH341A USB programmer or a [makeshift Arduino programmer](https://controllerstech.com/arduino-w25q-flash-memory/) to flash the binary file to the W25Q128 flash chip. The file can be obtained in [firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/(SSC338Q)openipc-nor-ultimate-16mb.bin) or the [OpenIPC repository](https://openipc.org/cameras/vendors/sigmastar/socs/ssc338q/download_full_image?flash_size=16&flash_type=nor&fw_release=ultimate&layout=16) or compiled locally.
 
 ![image](assets/flashProg.png)
 
@@ -100,7 +124,46 @@ The W25Q128 16MB flash chip comes blank from the factory and the bootloader must
 2. Connect the USB C port. The MerlynCAM PCB and WCH Link USB adapter must share common ground (e.g. connected to the same laptop)
 3. If compiling locally, press the upload button in Arduino IDE. Or use WCH-LinkUtility if flashing the pre compile binary in [(CH32V003)powerManagement.hex](https://github.com/YeetTheAnson/MerlynCAM/blob/main/firmware/binaries/%28CH32V003%29powerManagement.hex)
 
+## Assembly
 
+### Component List
+* **Shell:**
+    - [case.stl](https://github.com/YeetTheAnson/MerlynCAM/blob/main/production/3dPrint/case.stl)
+    - [lid.stl](https://github.com/YeetTheAnson/MerlynCAM/blob/main/production/3dPrint/lid.stl)
+    - [button.stl](https://github.com/YeetTheAnson/MerlynCAM/blob/main/production/3dPrint/button.stl)
+* **PCB:**
+    - [MerlynCAM.zip](https://github.com/YeetTheAnson/MerlynCAM/blob/main/production/PCB/MerlynCAM.zip)
+* **Camera:** IMX415 camera module for Orange Pi 5 + 30P MIPI cable
+* **Fasteners:**
+    - 8x M2 6mm Self Tapping Screws
+    - 4x M2 4mm Self Tapping Screws
+* **Battery:** Generic 500mAh LiPo battery
+* **SD Card:** Generic micro SD Card
+
+### Assembly Instructions
+
+1. Place IMX415 camera module in the case and secure with 4x 6mm Self Tapping Screws.
+
+<img src="assets/step1a.png" width="300">
+<img src="assets/step1b.png" width="300">
+
+2. Insert button with the hole side facing up.
+
+<img src="assets/step2.png" width="300">
+
+3. Solder the battery wires to designated pads and place the battery and PCB into the case. Route the MIPI cable through the recess of the case wall and connect to the mezzanine connector.
+
+<img src="assets/step3a.png" width="300">
+<img src="assets/step3b.png" width="300">
+
+4. Secure the PCB to the case with 4x 6mm Self Tapping Screws.
+
+<img src="assets/step4.png" width="300">
+
+5. Put on the case lid and secure with 4x 4mm Self Tapping Screws.
+
+<img src="assets/step5a.png" width="300">
+<img src="assets/step5b.png" width="300">
 
 ## Bill of Material
 Note: The prices in USD are converted as of 1 September 2026 and may fluctuate. The costs of separate components are cheaper than JLCPCB assembly.
