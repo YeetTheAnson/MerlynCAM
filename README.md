@@ -209,12 +209,13 @@ Note: The prices in USD are converted as of 1 September 2026 and may fluctuate. 
 | PCB Components | TF-115-BCP9 | SD card connector | [link](https://www.lcsc.com/product-detail/C720505.html) | LCSC | 5 | 0.49 |
 | PCB Components | TYPE-C 16PIN 2MD(073) | TYPE C Connector | [link](https://www.lcsc.com/product-detail/C2765186.html) | LCSC | 20 | 1.49 |
 | PCB Components | T201624MBBCE2X | 24MHz 2016 crystal resonator | [link](https://www.lcsc.com/product-detail/C7303340.html) | LCSC | 10 | 0.71 |
-| PCB | PCB | Bare PCB | - | JLCPCB | 1 | 7.00 |
-| PCB | Stencil | Stencil | - | JLCPCB | 1 | 10.45 |
-| PCB | JLCPCB Shipping | Shipping (No idea how this is cheaper than E post. Will check again after) | - | UPS Saver | 1 | 9.18 |
+| PCB Components | LCSC Shipping | 4PX | - | 4PX | 1 | 5.48 |
+| PCB | PCB | Bare PCB | - | JLCPCB | 1 | 2.00 |
+| PCB | Stencil | Stencil | - | JLCPCB | 1 | 6.36 |
+| PCB | JLCPCB Shipping | Shipping | - | E-POST | 1 | 6.68 |
 | Parts | OK-10F030-04 | 30P 0.4mm Mezzanine connector | [link](https://www.aliexpress.com/item/1005008289234567.html) | AliExpress | 1 | 2.09 |
 | Parts | SSC338Q | Main recording SOC | [link](https://www.aliexpress.com/item/1005009947110808.html) | AliExpress | 1 | 16.99 |
 | Parts | IMX415 camera module | IMX415 camera module 140 FOV | [link](https://www.aliexpress.com/item/1005009005078802.html) | AliExpress | 1 | 32.69 |
 | Parts | AliExpress Shipping | Shipping | - | AliExpress | 1 | 9.74 |
 
-### **Grand Total:** \$123.52
+### **Grand Total:** \$117.41
