@@ -135,14 +135,6 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
-		(at 0 1.58)
-		(size 0.25 0.25)
-		(drill 0.25)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c1f2aed5-a9eb-402c-80c9-754e4520cb3a")
-	)
 	(pad "1" smd rect
 		(at -1.33 -1.57 270)
 		(size 0.4 0.6)
