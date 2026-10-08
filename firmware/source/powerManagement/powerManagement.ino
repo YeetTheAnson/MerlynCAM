@@ -17,7 +17,6 @@
 #define BATT_20 3500
 #define BATT_5  3200
 
-// --- System States ---
 typedef enum {
     STATE_STANDBY,
     STATE_OFF_WAKE,
@@ -26,14 +25,19 @@ typedef enum {
 
 SystemState current_state = STATE_STANDBY;
 bool is_recording = false;
-bool is_charging = false;
-uint32_t last_batt_blink = 0; // Moved to global scope for the Arduino loop()
+uint32_t last_batt_blink = 0;
+
+// --- Apple Breathing LED Curve (Scaled for 50% max brightness) ---
+const uint8_t apple_breath[] = {
+    0, 0, 1, 2, 4, 6, 8, 10, 13, 16, 18, 21, 23, 24, 25, 25, 
+    25, 25, 24, 23, 21, 18, 16, 13, 10, 8, 6, 4, 2, 1, 0, 0
+};
 
 // --- Hardware Control Functions ---
-void led_on()  { GPIOD->BCR = (1 << PIN_LED); }  // Drive Low
-void led_off() { GPIOD->BSHR = (1 << PIN_LED); } // Drive High
-void mosfet_on()  { GPIOC->BCR = (1 << PIN_MOSFET); }  // Drive Low
-void mosfet_off() { GPIOC->BSHR = (1 << PIN_MOSFET); } // Drive High
+void led_on()  { GPIOD->BCR = (1 << PIN_LED); }  
+void led_off() { GPIOD->BSHR = (1 << PIN_LED); } 
+void mosfet_on()  { GPIOC->BCR = (1 << PIN_MOSFET); }  
+void mosfet_off() { GPIOC->BSHR = (1 << PIN_MOSFET); } 
 void rec_high() { GPIOC->BSHR = (1 << PIN_RECORD); }
 void rec_low()  { GPIOC->BCR = (1 << PIN_RECORD); }
 
@@ -43,96 +47,148 @@ bool status_high() { return (GPIOC->INDR & (1 << PIN_STATUS)); }
 
 // --- Hardware Initialization ---
 void init_hardware() {
-    // Enable Clocks for Port C, Port D, ADC1, and AFIO
-    RCC->APB2PCENR |= RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD | RCC_APB2Periph_ADC1 | RCC_APB2Periph_AFIO;
+    RCC->APB2PCENR |= RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOC | 
+                      RCC_APB2Periph_GPIOD | RCC_APB2Periph_ADC1 | RCC_APB2Periph_AFIO;
 
-    // Configure PC1 (MOSFET), PC5 (RECORD) as Push-Pull Outputs
+    RCC->CFGR0 &= ~(0x1F<<11); 
+    RCC->CFGR0 |= (8<<11); 
+
+    // ---- LOW POWER PIN CONFIGURATION ----
+    // Disconnect unused digital inputs to prevent leakage current in Deep Sleep
+    GPIOA->CFGLR &= ~((0xF << (4 * 1)) | (0xF << (4 * 2))); // PA1, PA2
+    GPIOC->CFGLR &= ~((0xF << (4 * 0)) | (0xF << (4 * 6)) | (0xF << (4 * 7))); // PC0, PC6, PC7
+    GPIOD->CFGLR &= ~((0xF << (4 * 0)) | (0xF << (4 * 2)) | (0xF << (4 * 3)) | 
+                      (0xF << (4 * 5)) | (0xF << (4 * 6)) | (0xF << (4 * 7))); 
+
+    // Outputs
     GPIOC->CFGLR &= ~(0xF << (4 * PIN_MOSFET) | 0xF << (4 * PIN_RECORD));
-    GPIOC->CFGLR |= (0x3 << (4 * PIN_MOSFET) | 0x3 << (4 * PIN_RECORD)); // 50MHz Push-Pull
+    GPIOC->CFGLR |= (0x3 << (4 * PIN_MOSFET) | 0x3 << (4 * PIN_RECORD)); 
     mosfet_off();
     rec_low();
 
-    // Configure PD4 (LED) as Push-Pull Output
     GPIOD->CFGLR &= ~(0xF << (4 * PIN_LED));
     GPIOD->CFGLR |= (0x3 << (4 * PIN_LED));
     led_off();
 
-    // Configure PC2 (PG), PC3 (STATUS), PC4 (BTN) as Inputs with Pull-Up
+    // Inputs (Pull-Ups Enabled)
     GPIOC->CFGLR &= ~(0xF << (4 * PIN_PG) | 0xF << (4 * PIN_STATUS) | 0xF << (4 * PIN_BTN));
-    GPIOC->CFGLR |= (0x8 << (4 * PIN_PG) | 0x8 << (4 * PIN_STATUS) | 0x8 << (4 * PIN_BTN)); // Input with pull-up/down
-    GPIOC->OUTDR |= (1 << PIN_PG) | (1 << PIN_STATUS) | (1 << PIN_BTN); // Set to Pull-Up
+    GPIOC->CFGLR |= (0x8 << (4 * PIN_PG) | 0x8 << (4 * PIN_STATUS) | 0x8 << (4 * PIN_BTN)); 
+    GPIOC->OUTDR |= (1 << PIN_PG) | (1 << PIN_STATUS) | (1 << PIN_BTN); 
 
-    // Configure EXTI for PC2 (PG) and PC4 (BTN) to wake from Standby
-    AFIO->EXTICR = (2 << (PIN_PG * 2)) | (2 << (PIN_BTN * 2)); // Assign Port C to EXTI2 and EXTI4
-    EXTI->INTENR |= (1 << PIN_PG) | (1 << PIN_BTN);            // Enable EXTI lines
-    EXTI->FTENR |= (1 << PIN_PG) | (1 << PIN_BTN);             // Falling edge trigger
+    // ---- EXTI WAKEUP EVENT CONFIGURATION ----
+    AFIO->EXTICR = (2 << (2*2)) | (2 << (3*2)) | (2 << (4*2)); // Map PC2, PC3, PC4
+    EXTI->EVENR |= (1 << PIN_PG) | (1 << PIN_STATUS) | (1 << PIN_BTN); // Enable HW Events (Not Interrupts)
+    EXTI->FTENR |= (1 << PIN_PG) | (1 << PIN_STATUS) | (1 << PIN_BTN); // Wake on Falling Edge
+    EXTI->RTENR |= (1 << PIN_PG) | (1 << PIN_STATUS);                  // Wake on Rising Edge
 }
 
 // --- ADC & Battery Functions ---
 void init_adc() {
-    // ADC Setup for Channel 8 (Internal 1.2V Vref)
-    ADC1->CTLR2 |= ADC_ADON; // Turn on ADC
-    ADC1->RSQR3 = 8;         // Select Channel 8
-    ADC1->SAMPTR2 = (7 << (3 * 8)); // Max sample time
-    
-    // Reset Calibration
+    RCC->APB2PRSTR |= RCC_APB2Periph_ADC1;
+    RCC->APB2PRSTR &= ~RCC_APB2Periph_ADC1;
+    ADC1->RSQR3 = 8;         
+    ADC1->SAMPTR2 = (7 << (3 * 8)); 
+    ADC1->CTLR2 |= ADC_ADON | (1 << 20) | (7 << 17);
+    Delay_Ms(1);
     ADC1->CTLR2 |= ADC_RSTCAL;
     while(ADC1->CTLR2 & ADC_RSTCAL);
-    // Start Calibration
     ADC1->CTLR2 |= ADC_CAL;
     while(ADC1->CTLR2 & ADC_CAL);
 }
 
 uint32_t get_battery_mv() {
-    ADC1->CTLR2 |= ADC_SWSTART; // Start Conversion
-    while(!(ADC1->STATR & ADC_EOC)); // Wait for End Of Conversion
+    ADC1->STATR &= ~(ADC_EOC | ADC_STRT); 
+    ADC1->CTLR2 |= ADC_SWSTART; 
+    uint32_t timeout = 100000;
+    while(!(ADC1->STATR & ADC_EOC) && timeout > 0) timeout--;
+    if(timeout == 0) return 9999; 
     uint32_t adc_val = ADC1->RDATAR;
-    
-    // VDD (Battery) = (1.2V * 1023) / ADC_Reading
     if(adc_val == 0) return 0;
     return (1200 * 1023) / adc_val;
 }
 
-// --- LED Sequences ---
-void blink_led(int count, uint32_t ms_on, uint32_t ms_off) {
+// ==========================================
+// ABORTABLE BATTERY ANIMATION LOGIC
+// ==========================================
+
+// Returns 1 if aborted for boot (<=750ms), 2 if aborted to sleep (>750ms), 0 if completed
+int delay_abortable(uint32_t ms, uint32_t release_time) {
+    uint32_t start = millis();
+    while (millis() - start < ms) {
+        if (btn_pressed()) {
+            if (millis() - release_time <= 750) return 1;
+            else return 2;
+        }
+    }
+    return 0;
+}
+
+int blink_led_abortable(int count, uint32_t ms_on, uint32_t ms_off, uint32_t release_time) {
     for(int i = 0; i < count; i++) {
         led_on();
-        Delay_Ms(ms_on);
+        int res = delay_abortable(ms_on, release_time);
+        if(res) { led_off(); return res; }
+        
         led_off();
-        if(i < count - 1) Delay_Ms(ms_off);
+        if(i < count - 1) {
+            res = delay_abortable(ms_off, release_time);
+            if(res) return res;
+        }
     }
+    return 0;
 }
 
+int show_battery_level_abortable(uint32_t batt_mv, uint32_t release_time) {
+    int res = 0;
+    if(batt_mv < BATT_5) res = blink_led_abortable(3, 100, 100, release_time);
+    else if(batt_mv < BATT_20) res = blink_led_abortable(1, 300, 300, release_time);
+    else if(batt_mv < BATT_40) res = blink_led_abortable(2, 300, 300, release_time);
+    else if(batt_mv < BATT_60) res = blink_led_abortable(3, 300, 300, release_time);
+    else if(batt_mv < BATT_80) res = blink_led_abortable(4, 300, 300, release_time);
+    else { 
+        res = blink_led_abortable(4, 300, 300, release_time);
+        if(res) return res;
+        res = delay_abortable(300, release_time);
+        if(res) return res;
+        res = blink_led_abortable(3, 100, 100, release_time);
+    }
+    return res;
+}
+
+// Standard blocking variants for when device is ON
+void blink_led(int count, uint32_t ms_on, uint32_t ms_off) {
+    for(int i = 0; i < count; i++) {
+        led_on(); Delay_Ms(ms_on);
+        led_off(); if(i < count - 1) Delay_Ms(ms_off);
+    }
+}
 void show_battery_level(uint32_t batt_mv) {
-    if(batt_mv < BATT_5) {
-        blink_led(3, 100, 100);
-    } else if(batt_mv < BATT_20) {
-        blink_led(1, 300, 300);
-    } else if(batt_mv < BATT_40) {
-        blink_led(2, 300, 300);
-    } else if(batt_mv < BATT_60) {
-        blink_led(3, 300, 300);
-    } else if(batt_mv < BATT_80) {
-        blink_led(4, 300, 300);
-    } else {
-        blink_led(4, 300, 300);
-        Delay_Ms(300);
-        blink_led(3, 100, 100);
-    }
+    show_battery_level_abortable(batt_mv, 0); 
 }
 
-// --- Shutdown Sequence ---
+// ==========================================
+// HARDWARE SEQUENCES
+// ==========================================
+
+void mosfet_dac_soft_start() {
+    for (int duty = 1; duty <= 16; duty++) {
+        for (int cycle = 0; cycle < 5000; cycle++) {
+            GPIOC->BCR = (1 << PIN_MOSFET);
+            for(volatile int i = 0; i < duty; i++) { __asm("nop"); }
+            GPIOC->BSHR = (1 << PIN_MOSFET);
+            for(volatile int i = 0; i < (16 - duty); i++) { __asm("nop"); }
+        }
+    }
+    GPIOC->BCR = (1 << PIN_MOSFET);
+}
+
 void shutdown_sequence() {
     is_recording = false;
     rec_low();
     
-    // 10Hz 33% duty cycle for 5 seconds to SSC338Q
-    // 10Hz = 100ms period. 33% = 33ms HIGH, 67ms LOW.
     for(int i = 0; i < 50; i++) {
-        rec_high();
-        Delay_Ms(33);
-        rec_low();
-        Delay_Ms(67);
+        rec_high(); Delay_Ms(33);
+        rec_low(); Delay_Ms(67);
     }
     
     mosfet_off();
@@ -140,92 +196,117 @@ void shutdown_sequence() {
 }
 
 // ==========================================
-// ARDUINO ENTRY POINTS (setup & loop)
+// MAIN LOOP
 // ==========================================
 
 void setup() {
     init_hardware();
     init_adc();
-
-    // Check Cold Boot State (External power applied, no battery)
-    if(pg_active() && status_high()) {
-        mosfet_on();
-        rec_high();
-        is_recording = true;
-        current_state = STATE_ON;
-    }
 }
 
 void loop() {
-    uint32_t now = millis(); // using the Arduino Core's built-in millis()
+    uint32_t now = millis(); 
     uint32_t batt_mv = get_battery_mv();
 
     switch(current_state) {
         
         case STATE_STANDBY: { 
-            // Deep Sleep (retains RAM, continues code below on wake-up)
-            PWR->CTLR &= ~PWR_CTLR_PDDS; // Clear PDDS for normal Deep Sleep
-            PFIC->SCTLR |= (1<<2);       // Set Sleepdeep bit
-            __WFI();                     // Wait For Interrupt (Wakes on PC2 or PC4)
+            if (pg_active()) {
+                if (!status_high()) {
+                    // --- CHARGING: 20kHz Software PWM Breathing ---
+                    for (int i = 0; i < 32; i++) {
+                        uint8_t on_time = apple_breath[i];
+                        uint8_t off_time = 50 - on_time; 
+                        
+                        for (int j = 0; j < 1000; j++) {
+                            if (on_time > 0) { led_on(); Delay_Us(on_time); }
+                            if (off_time > 0) { led_off(); Delay_Us(off_time); }
+                            if (!pg_active() || btn_pressed() || status_high()) break;
+                        }
+                        if (!pg_active() || btn_pressed() || status_high()) break;
+                        
+                        // 400ms pause at the bottom of the breath
+                        if (i == 31) {
+                            led_off();
+                            for(int j=0; j<8000; j++) {
+                                Delay_Us(50);
+                                if (!pg_active() || btn_pressed() || status_high()) break;
+                            }
+                        }
+                    }
+                } else {
+                    // --- FULLY CHARGED: Solid 50% PWM ---
+                    while(pg_active() && status_high()) {
+                        led_on(); Delay_Us(25);
+                        led_off(); Delay_Us(25);
+                        if (btn_pressed() || !pg_active()) break;
+                    }
+                }
+            } else {
+                // --- UNPLUGGED: True Deep Sleep ---
+                led_off();
+                PWR->CTLR &= ~PWR_CTLR_PDDS; // Clear PDDS for normal Deep Sleep (Stop Mode)
+                PFIC->SCTLR |= (1<<2);       // Set Sleepdeep bit
+                __WFE();                     // Wake on EXTI hardware event
+                SystemInit48HSI();              // Instantly restore 48MHz clock on wakeup
+            }
             
-            // --- Wake Up Handling ---
-            // (Clocks are automatically restored from deep sleep)
-            
-            // Wake logic evaluation
-            if(btn_pressed()) {
+            if (btn_pressed()) {
                 current_state = STATE_OFF_WAKE;
-            } else if(pg_active() && !status_high()) {
-                is_charging = true;
             }
             break;
         }
 
         case STATE_OFF_WAKE: { 
-            // Wait for button release to show battery
-            while(btn_pressed());
-            show_battery_level(batt_mv);
+            led_on();
+            while(btn_pressed()); 
+            led_off();
+            
+            uint32_t release_time = millis();
+            bool second_press = false;
 
-            // Wait for sequence: Press within 1000ms, then hold for 2s
-            uint32_t seq_start = millis();
-            bool sequence_success = false;
+            // Start battery sequence immediately. Allows aborting if pressed within 750ms.
+            int abort_reason = show_battery_level_abortable(batt_mv, release_time);
 
-            while(millis() - seq_start < 1000) {
-                if(btn_pressed()) {
-                    uint32_t hold_start = millis();
-                    bool hold_failed = false;
-
-                    // Check for 2-second hold
-                    while(millis() - hold_start < 2000) {
-                        if(!btn_pressed()) {
-                            hold_failed = true;
-                            break;
-                        }
-                        // Rapid blink during hold
-                        if((millis() / 100) % 2 == 0) led_on();
-                        else led_off();
+            if (abort_reason == 1) {
+                second_press = true; 
+            } 
+            else if (abort_reason == 0) {
+                // Sequence finished uninterrupted. Wait for the rest of the 750ms window.
+                while(millis() - release_time <= 750) {
+                    if (btn_pressed()) {
+                        second_press = true;
+                        break;
                     }
-                    
-                    led_off(); // Ensure LED is off before transition
-
-                    if(!hold_failed) {
-                        if(batt_mv >= BATT_5) {
-                            sequence_success = true;
-                            led_on();
-                            mosfet_on();
-                            while(btn_pressed()); // Wait for release
-                            led_off();
-                        } else {
-                            // Battery too low
-                            blink_led(3, 100, 100);
-                        }
-                    }
-                    break; 
                 }
             }
 
-            if(sequence_success) {
-                current_state = STATE_ON;
-                last_batt_blink = millis();
+            if(second_press) {
+                uint32_t hold_start = millis();
+                bool hold_failed = false;
+
+                while(btn_pressed()) {
+                    if(millis() - hold_start >= 2000) break; // 2 seconds reached
+                    if((millis() / 100) % 2 == 0) led_on(); else led_off();
+                }
+                led_off(); 
+
+                if(millis() - hold_start >= 2000) {
+                    // Lockout boot if battery is <5% AND unplugged
+                    if(batt_mv >= BATT_5 || pg_active()) {
+                        led_on(); Delay_Ms(300); 
+                        mosfet_dac_soft_start();
+                        while(btn_pressed()); 
+                        led_off();
+                        current_state = STATE_ON;
+                        last_batt_blink = millis();
+                    } else {
+                        blink_led(3, 100, 100); 
+                        current_state = STATE_STANDBY;
+                    }
+                } else {
+                    current_state = STATE_STANDBY; 
+                }
             } else {
                 current_state = STATE_STANDBY;
             }
@@ -233,62 +314,61 @@ void loop() {
         }
 
         case STATE_ON: { 
-            // Non-blocking battery percentage flash every 3500ms
             if(now - last_batt_blink >= 3500 && !btn_pressed()) {
-                show_battery_level(batt_mv);
-                last_batt_blink = millis();
+                // Auto-Shutdown if battery drops below 5% while running unplugged
+                if(batt_mv < BATT_5 && !pg_active()) {
+                    blink_led(2, 300, 300);
+                    shutdown_sequence();
+                } else {
+                    show_battery_level(batt_mv);
+                    last_batt_blink = millis();
+                }
             }
 
-            // Handle Button Holds while ON
             if(btn_pressed()) {
-                uint32_t hold_start = millis();
-                bool recording_toggled = false;
+                uint32_t press_start = millis();
+                bool shutdown_triggered = false;
 
                 while(btn_pressed()) {
-                    uint32_t held_time = millis() - hold_start;
+                    uint32_t held_time = millis() - press_start;
 
-                    // 4 Seconds: Turn Off Sequence
                     if(held_time >= 4000) {
-                        blink_led(2, 300, 300);
-                        shutdown_sequence();
-                        break; 
+                        shutdown_triggered = true;
+                        break; // 4s reached, force shutdown
                     }
-                    // > 2 Seconds: Rapid warning blink
                     else if(held_time >= 2000) {
-                        if((millis() / 100) % 2 == 0) led_on();
-                        else led_off();
+                        if((millis() / 100) % 2 == 0) led_on(); else led_off();
                     }
-                    // 1-2 Seconds: Ready to toggle recording (triggers on release)
-                    else if(held_time >= 1000 && !recording_toggled) {
-                        recording_toggled = true; // Mark as ready to toggle
+                    else {
+                        led_off(); 
                     }
                 }
 
-                led_off(); // Ensure off upon release
+                led_off(); 
+                uint32_t held_time = millis() - press_start;
 
-                // If released between 1 and 2 seconds, toggle recording
-                if(recording_toggled && current_state == STATE_ON) {
+                // --- Execute actions AFTER release ---
+                if (shutdown_triggered) {
+                    blink_led(2, 300, 300);
+                    shutdown_sequence();
+                } 
+                else if (held_time < 500) {
+                    // PHOTO MODE: Send 150ms pulse
+                    rec_high();
+                    Delay_Ms(150);
+                    rec_low();
+                } 
+                else if (held_time >= 1000 && held_time < 4000) {
+                    // VIDEO MODE: Toggle continuous High/Low
                     is_recording = !is_recording;
                     if(is_recording) rec_high();
                     else rec_low();
                 }
+                
+                // Prevent battery flash right after triggering an action
+                last_batt_blink = millis(); 
             }
             break;
-        }
-    }
-
-    // Charging logic update while in Standby loop (if not handled by EXTI waking)
-    if(current_state == STATE_STANDBY) {
-        if(!pg_active() || status_high()) {
-            if(is_charging) {
-                is_charging = false;
-                led_off();
-            }
-        } else {
-            // If charging, blink slowly
-            is_charging = true;
-            if((millis() / 1000) % 2 == 0) led_on();
-            else led_off();
         }
     }
 }
