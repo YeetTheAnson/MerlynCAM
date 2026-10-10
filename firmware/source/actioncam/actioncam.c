@@ -450,53 +450,9 @@ struct gyro_job {
     volatile int run;
     pthread_t th;
     int started;
-    char video_path[160];          /* file curl is writing; used to detect the first frame */
 };
 static struct gyro_job g_gyro;
 
-
-/* ---- first-frame detection -------------------------------------------
- * Majestic streams fragmented MP4: [ftyp][moov] init segment first, then
- * [moof][mdat] fragments that carry the frames. We treat the arrival of the
- * first moof/mdat box as "first frame received". Fallbacks: if the file grows
- * past 256 KiB or 8 s pass without seeing one, start logging anyway.       */
-static int first_frame_seen(int fd)
-{
-    struct stat st;
-    uint8_t h[8];
-    off_t off = 0;
-
-    if (fstat(fd, &st) != 0) return 0;
-    for (int i = 0; i < 16; i++) {
-        uint32_t sz;
-        if (off + 8 > st.st_size) return 0;                 /* header not here yet */
-        if (pread(fd, h, 8, off) != 8) return 0;
-        if (!memcmp(h + 4, "moof", 4) || !memcmp(h + 4, "mdat", 4)) return 1;
-        sz = ((uint32_t)h[0] << 24) | ((uint32_t)h[1] << 16) | ((uint32_t)h[2] << 8) | h[3];
-        if (sz < 8) return st.st_size > 262144;             /* unusual box: use size fallback */
-        off += sz;
-    }
-    return 1;
-}
-
-static int wait_first_frame(struct gyro_job *j)
-{
-    int fd = -1, ok = 0;
-    long long start = now_us();
-
-    while (j->run) {
-        if (fd < 0) fd = open(j->video_path, O_RDONLY);      /* curl creates it lazily */
-        if (fd >= 0) {
-            struct stat st;
-            if (first_frame_seen(fd)) { ok = 1; break; }
-            if (fstat(fd, &st) == 0 && st.st_size > 262144) { ok = 1; break; }
-        }
-        if (now_us() - start > 8000000LL) { ok = 1; break; }  /* give up waiting */
-        usleep(1000);
-    }
-    if (fd >= 0) close(fd);
-    return ok;
-}
 
 static void *gyro_thread(void *arg)
 {
@@ -508,11 +464,6 @@ static void *gyro_thread(void *arg)
     long long last_flush = now_us();
 
     if (tfd < 0) return NULL;
-
-    /* sensor is already configured; do not log until the first frame arrives */
-    if (!wait_first_frame(j)) { close(tfd); return NULL; }
-    j->t0_us = now_us();                       /* gyro t = 0  <->  first video frame */
-    last_flush = j->t0_us;
 
     its.it_value.tv_sec = 0;
     its.it_value.tv_nsec = 1000000000L / j->hz;
@@ -535,7 +486,7 @@ static void *gyro_thread(void *arg)
     return NULL;
 }
 
-static int gyro_start(const char *path, const char *video_path, const char *videoname, int fps)
+static int gyro_start(const char *path, const char *videoname, int fps)
 {
     struct gyro_job *j = &g_gyro;
     double gscale = (2000.0 * 3.14159265358979323846 / 180.0) / 32768.0;
@@ -555,7 +506,7 @@ static int gyro_start(const char *path, const char *video_path, const char *vide
         "t,gx,gy,gz,ax,ay,az\n",
         (long)time(NULL), videoname, gscale, ascale);
 
-    snprintf(j->video_path, sizeof j->video_path, "%s", video_path);
+    j->t0_us = now_us();           /* gyro t = 0 at launch; logging starts immediately */
     j->run = 1;
     if (pthread_create(&j->th, NULL, gyro_thread, j) != 0) {
         fclose(j->f); j->f = NULL; j->run = 0;
@@ -612,7 +563,7 @@ static void start_recording(long now)
     snprintf(lpath, sizeof lpath, LOG_DIR "/log_video_%04d.txt", n);
 
     copy_file(MAJESTIC_YAML, lpath);             /* config snapshot (overwrites) */
-    if (g_gyro_ok && gyro_start(gpath, vpath, vname, fps) != 0)
+    if (g_gyro_ok && gyro_start(gpath, vname, fps) != 0)
         fprintf(stderr, "gyro logging failed to start\n");
 
     g_video_pid = spawn_curl(0, vpath, VIDEO_URL);
