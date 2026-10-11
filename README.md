@@ -1,5 +1,8 @@
 # MerlynCAM
 
+https://github.com/user-attachments/assets/a9457055-48cb-43b0-b4a9-4c273cf0078e
+https://github.com/user-attachments/assets/13ca98ed-bc15-4bd0-ae74-1581ccfe5670
+
 ## Introduction
 This project was made possible thanks the reverse engineering efforts done by the OpenIPC team! You can check out their supported hardware here: https://openipc.org/supported-hardware/featured and the reference project here: https://oshwlab.com/oshwhub.com/openipc-vtx-ssc338q-30kq
 
